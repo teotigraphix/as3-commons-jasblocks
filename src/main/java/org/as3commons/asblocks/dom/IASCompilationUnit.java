@@ -44,7 +44,7 @@ import java.util.List;
  * IASClassType type = (IASClassType)unit.getType();
  * type.newMetaData("Bindable");
  * type.setDescription("A new class.");
- * IMethod method = type.newMethod("foo", Visibility.PUBLIC, "void");
+ * IASMethod method = type.newMethod("foo", Visibility.PUBLIC, "void");
  * </pre>
  * 
  * <p>Will produce;</p>

@@ -30,7 +30,7 @@ package org.as3commons.asblocks.dom;
  * 
  * <pre>
  * IASBooleanLiteral bl = factory.newBooleanLiteral(true);
- * bl.value = false;
+ * bl.setValue(false);
  * </pre>
  * 
  * <p>Will produce; <code>false</code>.</p>

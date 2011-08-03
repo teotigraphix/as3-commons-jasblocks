@@ -65,8 +65,8 @@ public interface IASArrayLiteral extends IASLiteral
 	 * <p><strong>Note:</strong> - Do not attempt to add or remove items from 
 	 * this List, the AST will not be updated.</p>
 	 * 
-	 * @see #add()
-	 * @see #remove()
+	 * @see #add(IASExpression)
+	 * @see #remove(IASExpression)
 	 */
 	public List<IASExpression> getEntries();
 	

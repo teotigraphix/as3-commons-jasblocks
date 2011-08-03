@@ -34,8 +34,8 @@ package org.as3commons.asblocks.dom;
  * <pre>
  * IASExpression left = factory.newExpression("myAnswer");
  * IASExpression right = factory.newExpression("4");
- * IASAssignmentExpression expression:IAssignmentExpression = factory.newAssignmentExpression(left, right);
- * expression.rightExpression = factory.newExpression("otherAnswer = 4");
+ * IASAssignmentExpression expression = factory.newAssignmentExpression(left, right);
+ * expression.setRightExpression(factory.newExpression("otherAnswer = 4"));
  * </pre>
  * 
  * <p>Will produce <code>myAnswer = otherAnswer = 4</code>.</p>

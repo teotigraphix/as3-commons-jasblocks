@@ -24,7 +24,21 @@ import java.io.Writer;
 
 import org.as3commons.asblocks.dom.IASCompilationUnit;
 
+/**
+ * Writes an <code>IASCompilationUnit</code> source code to the specified
+ * <code>IWriter</code>.
+ * 
+ * @author Michael Schmalle
+ * @copyright Teoti Graphix, LLC
+ * @since 1.0
+ */
 public interface IASWriter
 {
+	/**
+	 * Writes the <code>IASCompilationUnit</code> to an <code>IWriter</code> instance.
+	 * 
+	 * @param writer An <code>IWriter</code> .
+	 * @param unit An <code>IASCompilationUnit</code> instance to be written.
+	 */	
 	public void write(Writer writer, IASCompilationUnit cu) throws IOException;
 }
