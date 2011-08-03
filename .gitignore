@@ -1,0 +1,11 @@
+/.settings/*
+
+/bin/*
+/libs/*
+
+.classpath
+.project
+
+Icon
+Thumbs.db
+.DS_Store
