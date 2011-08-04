@@ -341,6 +341,11 @@ class DocumentationUtils
 		if (commentToken != null)
 		{
 			String body = getCommentBody(commentToken);
+			//String indent = ASTUtils.findIndent(ast);
+			//indent = "\n" + indent;
+			//int len = indent.length() + 1;
+			//body = body.substring(0, body.length() - len); 
+			
 			// turn the string back into ASDoc AST
 			asdoc = parse(body);
 			// take the trailing EOFs off
@@ -390,9 +395,24 @@ class DocumentationUtils
 		}
 		else
 		{
-			newDesc.appendToken(new LinkedListToken(ASDocParser.NL, newline));
+			String comment = "";
+			
 			asdoc.setChildWithTokens(0, newDesc);
-			commentToken.setText("/**" + ASTUtils.stringifyNode(asdoc) + "*/");
+			
+			// if has tags
+			if (asdoc.getChildCount() > 1)
+			{
+				newDesc.appendToken(new LinkedListToken(ASDocParser.NL, newline));
+				comment = "/**" + ASTUtils.stringifyNode(asdoc) + "*/";
+			}
+			else
+			{
+				newline = newline.replace("* ", "*/");
+				newDesc.appendToken(new LinkedListToken(ASDocParser.NL, newline));
+				
+				comment = "/**" + ASTUtils.stringifyNode(asdoc);
+			}
+			commentToken.setText(comment);
 		}
 	}
 
