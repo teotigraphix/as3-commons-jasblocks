@@ -32,6 +32,7 @@ import org.as3commons.asblocks.parser.antlr.LinkedListTree;
 import org.as3commons.asblocks.parser.antlr.LinkedListTreeAdaptor;
 import org.as3commons.asblocks.parser.antlr.asdoc.ASDocLexer;
 import org.as3commons.asblocks.parser.antlr.asdoc.ASDocParser;
+import org.junit.Test;
 
 public class TestASDocParser extends TestCase
 {
@@ -44,6 +45,23 @@ public class TestASDocParser extends TestCase
 		assertEquals(ASDocParser.DESCRIPTION, tree.getFirstChild().getType());
 	}
 
+	@Test
+	public void test_white_space() throws IOException, RecognitionException
+	{
+		String doc = "* First description\n" + "*   @param foo bar";
+		LinkedListTree tree = parse(doc);
+		
+		LinkedListTree desc = (LinkedListTree) tree.getChild(0);
+		assertEquals(ASDocParser.DESCRIPTION, desc.getType());
+		
+		LinkedListTree param = (LinkedListTree) tree.getChild(1);
+		assertEquals(ASDocParser.PARA_TAG, param.getType());
+		// NOTE: this is a hack for people that add more than on space after
+		// an astrix, which is "not" correct but for this lexer to not fail
+		// for these cases, the tag name is (WS? ATWORD)
+		assertEquals("  @param", param.getFirstChild().getText());		
+	}
+	
 	public void testParaBasic() throws IOException, RecognitionException
 	{
 		String doc = "* desc\n" + "* ription\n" + "* @param foo bar";
