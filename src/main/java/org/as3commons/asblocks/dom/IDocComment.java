@@ -20,6 +20,7 @@
 package org.as3commons.asblocks.dom;
 
 import java.util.Iterator;
+import java.util.List;
 
 /**
  * The comment node of an <code>IDocCommentAware</code> client.
@@ -111,7 +112,14 @@ public interface IDocComment extends IScriptElement
 	 * <code>false</code> does not contain the tag.
 	 */
 	public boolean hasDocTag(String name);
-
+	
+	/**
+	 * Returns all tags found in the documentation.
+	 * 
+	 * @return A <code>List</code> of <code>IDocTag</code>.
+	 */
+	public List<IDocTag> getAllTags();
+	
 	/**
 	 * Returns an <code>Iterator</code> for all the tags by <code>name</code>.
 	 * 

@@ -19,9 +19,11 @@
 
 package org.as3commons.asblocks.impl;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 
 import org.as3commons.asblocks.dom.IDocComment;
 import org.as3commons.asblocks.dom.IDocTag;
@@ -70,16 +72,15 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 	{
 		DocumentationUtils.assertValidContent(body);
 		String newline = DocumentationUtils.getNewlineText(ast, _asdoc);
-		body = body.replaceAll("\n", newline);
 		String tagname = tagName(name);
 		if (_asdoc == null)
 		{
-			DocumentationUtils.setDocComment(ast, "\n " + tagname + " " + body
-					+ "\n");
+			DocumentationUtils.setDocComment(ast, "\n" + tagname + " " + body + "\n");
 			_asdoc = DocumentationUtils.buildASDoc(ast);
 		}
 		else
 		{
+			body = body.replaceAll("\n", newline);
 			LinkedListTree lastChild = _asdoc.getLastChild();
 			LinkedListTree para = DocumentationUtils.parseParaTag(tagname + " "
 					+ body);
@@ -129,7 +130,24 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		}
 		return false;
 	}
-
+	
+	public List<IDocTag> getAllTags()
+	{
+		if (_asdoc == null)
+		{
+			return new ArrayList<IDocTag>();
+		}
+		ArrayList<IDocTag> tags = new ArrayList<IDocTag>();
+		ASTIterator i = new ASTIterator(_asdoc);
+		LinkedListTree para;
+		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
+		{
+			//LinkedListTree tag = para.getFirstChild();
+			tags.add(new ASTDocTag(this, para));
+		}
+		return tags;
+	}
+	
 	@SuppressWarnings("unchecked")
 	@Override
 	public Iterator<IDocTag> getTags(String name)
@@ -180,8 +198,10 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		LinkedListToken start = tagAST.getStartToken().getPrev();
 
 		int index = _asdoc.getIndexOfChild(tagAST);
-		// TODO what is going on here?
-		if (index == 1 && _asdoc.getChildCount() <= 2)
+		
+		// this chop has to happen on the last tag
+		// if there is any tags BEFORE this tag, don't chop
+		if (index == _asdoc.getChildCount() - 1)
 		{
 			start.setText(start.getText().replace(" *", ""));
 		}

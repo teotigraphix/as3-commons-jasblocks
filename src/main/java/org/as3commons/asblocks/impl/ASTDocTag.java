@@ -108,6 +108,8 @@ public class ASTDocTag implements IDocTag
 		}
 		
 		comment.commitModifiedAST();
+		
+		this.ast = tag;
 	}
 
 	private void replaceNLs(LinkedListTree tree, String indentNL)

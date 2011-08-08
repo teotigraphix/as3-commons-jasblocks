@@ -132,6 +132,7 @@ class DocumentationUtils
 		}
 		assertValidContent(text);
 		String indent = ASTUtils.findIndent(node);
+		// XXX this needs rightTrim() applied
 		text = "/**" + text.replaceAll("(\n|\r\n|\r)", "$1" + indent + " *");
 		if (!text.endsWith("*"))
 		{

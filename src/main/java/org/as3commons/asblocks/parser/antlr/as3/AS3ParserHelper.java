@@ -92,8 +92,8 @@ public class AS3ParserHelper
 				break;
 			if (type == AS3Parser.EOL
 					|| type == AS3Parser.SL_COMMENT
-					|| (type == AS3Parser.ML_COMMENT && lt.getText().matches(
-							"/.*\r\n|\r|\n")))
+					|| (type == AS3Parser.ML_COMMENT && lt.getText() != null 
+							&& lt.getText().matches("/.*\r\n|\r|\n")))
 			{
 				retval.start = lt;
 				return true;
@@ -123,9 +123,6 @@ public class AS3ParserHelper
 				braceCount--;
 			}
 
-			// System.out.println(ASTUtils.tokenName(type));
-			// System.out.println(input.LT(1));
-			
 			input.consume();
 			
 			if (braceCount == 0)
@@ -138,8 +135,6 @@ public class AS3ParserHelper
 		} while (braceCount != 0 && type != AS3Parser.EOF);
 
 		retval.stop = input.LT(1);
-
-		//adaptor.addChild(retval.getTree(), adaptor.create(AS3Parser.BLOCK, "BLOCK"));
 		
 		adaptor.setTokenBoundaries(retval.getTree(), retval.start, retval.stop);
 
