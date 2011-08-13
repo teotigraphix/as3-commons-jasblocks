@@ -60,6 +60,31 @@ public class Test_DocComment extends TestCase
 	}
 
 	@Test
+	public void test_newDocTagAt_basic()
+	{
+		IDocComment doc = clazz.getDocumentation();
+		doc.newDocTagAt(0, "foo");
+		IDocTag tag1 = doc.findFirstTag("foo");
+		assertNotNull(tag1);
+	}
+
+	@Test
+	public void test_newDocTagAt()
+	{
+		IDocComment doc = clazz.getDocumentation();
+		doc.newDocTagAt(0, "foo");
+		doc.newDocTagAt(1, "bar");
+		doc.newDocTagAt(1, "baz", "asdasdasdasd\nasdasdasdasd\nasdasd22");
+		doc.newDocTagAt(3, "goo", "asdasdasdasd");
+		String data = doc.toString();
+		IDocTag tag1 = doc.findFirstTag("foo");
+		assertNotNull(tag1);
+		assertEquals("\n\t/**\n\t * @foo \n\t * @baz asdasdasdasd\n\t * asdasdasdasd\n\t " +
+				"* asdasd22\n\t * @bar \n\t * @goo asdasdasdasd\n\t */\n\tpublic " +
+				"class Test {\n\t}", data);
+	}
+	
+	@Test
 	public void test_getShortDescription()
 	{
 		String desc = "Start of the comment.\n" + " More lines.\n" + "<pre>\n"

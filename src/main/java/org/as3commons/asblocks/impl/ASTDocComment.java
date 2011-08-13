@@ -111,7 +111,43 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 	{
 		return newDocTag(name, "");
 	}
+	
+	@Override
+	public IDocTag newDocTagAt(int index, String name, String body)
+	{
+		DocumentationUtils.assertValidContent(body);
+		String newline = DocumentationUtils.getNewlineText(ast, _asdoc);
+		String tagname = tagName(name);
+		
+		// have to adjust for the fact the description will always be 0
+		index = Math.max(1, index + 1);
+		
+		if (_asdoc == null)
+		{
+			DocumentationUtils.setDocComment(ast, "\n" + tagname + " " + body + "\n");
+			_asdoc = DocumentationUtils.buildASDoc(ast);
+		}
+		else
+		{
+			if (_asdoc.getChildCount() == 1 || index == _asdoc.getChildCount())
+				return newDocTag(name, body);			
+			
+			body = body.replaceAll("\n", newline);
+			// create the new AST for the doc tag
+			LinkedListTree tag = DocumentationUtils.parseParaTag(tagname + " "	+ body);
+			tag.addChildWithTokens(ASTUtils.newAST(ASDocParser.NL, newline));
+			_asdoc.addChildAtWithTokens(index, tag);
+			commitModifiedAST();
+			return null;
+		}
+		return null;
+	}
 
+	@Override
+	public IDocTag newDocTagAt(int index, String name) {
+		return newDocTagAt(index, name, "");
+	}
+	
 	@Override
 	public boolean hasDocTag(String name)
 	{

@@ -104,6 +104,26 @@ public interface IDocComment extends IScriptElement
 	public IDocTag newDocTag(String name);
 
 	/**
+	 * Creates and appends a <code>IDocTag</code> tag to the documentation.
+	 * 
+	 * @param name The name of the new doc tag.
+	 * @param index The index to add the new tag.
+	 * @param body The body of the new doc tag.
+	 * @return A new <code>IDocTag</code> instance.
+	 * @throws ASBlocksSyntaxError if the given text contains an end-of-comment
+	 *         marker, or a tagged-paragraph
+	 */
+	public IDocTag newDocTagAt(int index, String name, String body);
+
+	/**
+	 * @see #newDocTagAt(int, String, String)
+	 * @param index The index to add the new tag.
+	 * @param name The name of the new doc tag.
+	 * @return A new <code>IDocTag</code> instance.
+	 */
+	public IDocTag newDocTagAt(int index, String name);
+
+	/**
 	 * Returns a <code>boolean</code> indicating whether the documentation
 	 * contains an <code>IDocTag</code> by the name <code>name</code>.
 	 * 
