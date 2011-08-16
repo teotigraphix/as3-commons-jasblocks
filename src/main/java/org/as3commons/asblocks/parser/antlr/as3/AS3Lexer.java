@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g 2011-07-31 11:14:32
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g 2011-08-16 07:44:02
 
 package org.as3commons.asblocks.parser.antlr.as3;
 
@@ -255,15 +255,15 @@ public class AS3Lexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g"; }
 
     // $ANTLR start "FINAL"
     public final void mFINAL() throws RecognitionException {
         try {
             int _type = FINAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1576:8: ( 'final' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1576:10: 'final'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1605:8: ( 'final' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1605:10: 'final'
             {
             match("final"); if (state.failed) return ;
 
@@ -283,8 +283,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = OVERRIDE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1577:10: ( 'override' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1577:12: 'override'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1606:10: ( 'override' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1606:12: 'override'
             {
             match("override"); if (state.failed) return ;
 
@@ -304,8 +304,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = INCLUDE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1578:10: ( 'include' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1578:12: 'include'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1607:10: ( 'include' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1607:12: 'include'
             {
             match("include"); if (state.failed) return ;
 
@@ -325,8 +325,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = THROW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1579:8: ( 'throw' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1579:10: 'throw'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1608:8: ( 'throw' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1608:10: 'throw'
             {
             match("throw"); if (state.failed) return ;
 
@@ -346,8 +346,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = TRY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1580:6: ( 'try' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1580:8: 'try'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1609:6: ( 'try' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1609:8: 'try'
             {
             match("try"); if (state.failed) return ;
 
@@ -367,8 +367,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = CATCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1581:8: ( 'catch' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1581:10: 'catch'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:8: ( 'catch' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:10: 'catch'
             {
             match("catch"); if (state.failed) return ;
 
@@ -388,8 +388,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = FINALLY;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1582:10: ( 'finally' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1582:12: 'finally'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:10: ( 'finally' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:12: 'finally'
             {
             match("finally"); if (state.failed) return ;
 
@@ -409,8 +409,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = VOID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1583:7: ( 'void' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1583:9: 'void'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:7: ( 'void' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:9: 'void'
             {
             match("void"); if (state.failed) return ;
 
@@ -430,8 +430,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = INSTANCEOF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1584:12: ( 'instanceof' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1584:14: 'instanceof'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:12: ( 'instanceof' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:14: 'instanceof'
             {
             match("instanceof"); if (state.failed) return ;
 
@@ -451,8 +451,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DELETE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1585:10: ( 'delete' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1585:12: 'delete'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:10: ( 'delete' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:12: 'delete'
             {
             match("delete"); if (state.failed) return ;
 
@@ -472,8 +472,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = TYPEOF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1586:9: ( 'typeof' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1586:11: 'typeof'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:9: ( 'typeof' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:11: 'typeof'
             {
             match("typeof"); if (state.failed) return ;
 
@@ -493,8 +493,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = UNDEFINED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1587:11: ( 'undefined' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1587:13: 'undefined'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:11: ( 'undefined' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:13: 'undefined'
             {
             match("undefined"); if (state.failed) return ;
 
@@ -514,8 +514,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = NATIVE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1589:9: ( 'native' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1589:11: 'native'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:9: ( 'native' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:11: 'native'
             {
             match("native"); if (state.failed) return ;
 
@@ -535,8 +535,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = PACKAGE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1591:10: ( 'package' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1591:12: 'package'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1620:10: ( 'package' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1620:12: 'package'
             {
             match("package"); if (state.failed) return ;
 
@@ -556,8 +556,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = PUBLIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1592:9: ( 'public' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1592:11: 'public'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:9: ( 'public' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:11: 'public'
             {
             match("public"); if (state.failed) return ;
 
@@ -577,8 +577,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = PRIVATE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1593:10: ( 'private' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1593:12: 'private'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1622:10: ( 'private' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1622:12: 'private'
             {
             match("private"); if (state.failed) return ;
 
@@ -598,8 +598,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = PROTECTED;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1594:11: ( 'protected' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1594:13: 'protected'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:11: ( 'protected' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:13: 'protected'
             {
             match("protected"); if (state.failed) return ;
 
@@ -619,8 +619,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = INTERNAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1595:10: ( 'internal' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1595:12: 'internal'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1624:10: ( 'internal' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1624:12: 'internal'
             {
             match("internal"); if (state.failed) return ;
 
@@ -640,8 +640,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = FUNCTION;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1596:10: ( 'function' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1596:12: 'function'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:10: ( 'function' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:12: 'function'
             {
             match("function"); if (state.failed) return ;
 
@@ -661,8 +661,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = EXTENDS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1597:10: ( 'extends' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1597:12: 'extends'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:10: ( 'extends' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:12: 'extends'
             {
             match("extends"); if (state.failed) return ;
 
@@ -682,8 +682,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = IMPLEMENTS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1598:12: ( 'implements' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1598:14: 'implements'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:12: ( 'implements' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:14: 'implements'
             {
             match("implements"); if (state.failed) return ;
 
@@ -703,8 +703,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = VAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1599:6: ( 'var' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1599:8: 'var'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:6: ( 'var' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:8: 'var'
             {
             match("var"); if (state.failed) return ;
 
@@ -724,8 +724,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = STATIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1600:9: ( 'static' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1600:11: 'static'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:9: ( 'static' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:11: 'static'
             {
             match("static"); if (state.failed) return ;
 
@@ -745,8 +745,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1601:5: ( 'if' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1601:7: 'if'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:5: ( 'if' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:7: 'if'
             {
             match("if"); if (state.failed) return ;
 
@@ -766,8 +766,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = IMPORT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1602:9: ( 'import' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1602:11: 'import'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:9: ( 'import' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:11: 'import'
             {
             match("import"); if (state.failed) return ;
 
@@ -787,8 +787,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = FOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1603:6: ( 'for' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1603:8: 'for'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:6: ( 'for' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:8: 'for'
             {
             match("for"); if (state.failed) return ;
 
@@ -808,8 +808,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = EACH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1604:7: ( 'each' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1604:9: 'each'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1633:7: ( 'each' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1633:9: 'each'
             {
             match("each"); if (state.failed) return ;
 
@@ -829,8 +829,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = IN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1605:5: ( 'in' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1605:7: 'in'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1634:5: ( 'in' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1634:7: 'in'
             {
             match("in"); if (state.failed) return ;
 
@@ -850,8 +850,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = WHILE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1606:8: ( 'while' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1606:10: 'while'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1635:8: ( 'while' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1635:10: 'while'
             {
             match("while"); if (state.failed) return ;
 
@@ -871,8 +871,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1607:5: ( 'do' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1607:7: 'do'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:5: ( 'do' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:7: 'do'
             {
             match("do"); if (state.failed) return ;
 
@@ -892,8 +892,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SWITCH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1608:9: ( 'switch' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1608:11: 'switch'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:9: ( 'switch' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:11: 'switch'
             {
             match("switch"); if (state.failed) return ;
 
@@ -913,8 +913,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = CASE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1609:7: ( 'case' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1609:9: 'case'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:7: ( 'case' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:9: 'case'
             {
             match("case"); if (state.failed) return ;
 
@@ -934,8 +934,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DEFAULT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:10: ( 'default' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1610:12: 'default'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:10: ( 'default' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:12: 'default'
             {
             match("default"); if (state.failed) return ;
 
@@ -955,8 +955,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = ELSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:7: ( 'else' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1611:9: 'else'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:7: ( 'else' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:9: 'else'
             {
             match("else"); if (state.failed) return ;
 
@@ -976,8 +976,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = CONST;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:8: ( 'const' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1612:10: 'const'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:8: ( 'const' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:10: 'const'
             {
             match("const"); if (state.failed) return ;
 
@@ -997,8 +997,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:8: ( 'class' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1613:10: 'class'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:8: ( 'class' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:10: 'class'
             {
             match("class"); if (state.failed) return ;
 
@@ -1018,8 +1018,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = INTERFACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:11: ( 'interface' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1614:13: 'interface'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:11: ( 'interface' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:13: 'interface'
             {
             match("interface"); if (state.failed) return ;
 
@@ -1039,8 +1039,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = TRUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:7: ( 'true' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1615:9: 'true'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:7: ( 'true' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:9: 'true'
             {
             match("true"); if (state.failed) return ;
 
@@ -1060,8 +1060,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = FALSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:8: ( 'false' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1616:10: 'false'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:8: ( 'false' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:10: 'false'
             {
             match("false"); if (state.failed) return ;
 
@@ -1081,8 +1081,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DYNAMIC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1617:10: ( 'dynamic' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1617:12: 'dynamic'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:10: ( 'dynamic' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:12: 'dynamic'
             {
             match("dynamic"); if (state.failed) return ;
 
@@ -1102,8 +1102,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = USE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:6: ( 'use' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1618:8: 'use'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:6: ( 'use' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:8: 'use'
             {
             match("use"); if (state.failed) return ;
 
@@ -1123,8 +1123,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = NAMESPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1620:11: ( 'namespace' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1620:13: 'namespace'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:11: ( 'namespace' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:13: 'namespace'
             {
             match("namespace"); if (state.failed) return ;
 
@@ -1144,8 +1144,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = IS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:5: ( 'is' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1621:7: 'is'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:5: ( 'is' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:7: 'is'
             {
             match("is"); if (state.failed) return ;
 
@@ -1165,8 +1165,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = AS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1622:5: ( 'as' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1622:7: 'as'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:5: ( 'as' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:7: 'as'
             {
             match("as"); if (state.failed) return ;
 
@@ -1186,8 +1186,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = GET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:6: ( 'get' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1623:8: 'get'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:6: ( 'get' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:8: 'get'
             {
             match("get"); if (state.failed) return ;
 
@@ -1207,8 +1207,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SET;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1624:6: ( 'set' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1624:8: 'set'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1653:6: ( 'set' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1653:8: 'set'
             {
             match("set"); if (state.failed) return ;
 
@@ -1228,8 +1228,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = WITH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:7: ( 'with' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1625:9: 'with'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:7: ( 'with' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:9: 'with'
             {
             match("with"); if (state.failed) return ;
 
@@ -1249,8 +1249,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = RETURN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:9: ( 'return' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1626:11: 'return'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:9: ( 'return' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:11: 'return'
             {
             match("return"); if (state.failed) return ;
 
@@ -1270,8 +1270,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = CONTINUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:10: ( 'continue' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1627:12: 'continue'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:10: ( 'continue' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:12: 'continue'
             {
             match("continue"); if (state.failed) return ;
 
@@ -1291,8 +1291,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BREAK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:8: ( 'break' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1628:10: 'break'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:8: ( 'break' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:10: 'break'
             {
             match("break"); if (state.failed) return ;
 
@@ -1312,8 +1312,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:7: ( 'null' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1629:9: 'null'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:7: ( 'null' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:9: 'null'
             {
             match("null"); if (state.failed) return ;
 
@@ -1333,8 +1333,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = NEW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:6: ( 'new' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1630:8: 'new'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1659:6: ( 'new' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1659:8: 'new'
             {
             match("new"); if (state.failed) return ;
 
@@ -1354,8 +1354,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SUPER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:8: ( 'super' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1631:10: 'super'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1660:8: ( 'super' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1660:10: 'super'
             {
             match("super"); if (state.failed) return ;
 
@@ -1375,8 +1375,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = THIS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:7: ( 'this' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1632:9: 'this'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1661:7: ( 'this' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1661:9: 'this'
             {
             match("this"); if (state.failed) return ;
 
@@ -1396,8 +1396,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = QUESTION;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1635:10: ( '?' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1635:12: '?'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1664:10: ( '?' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1664:12: '?'
             {
             match('?'); if (state.failed) return ;
 
@@ -1416,8 +1416,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:9: ( '(' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1636:11: '('
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1665:9: ( '(' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1665:11: '('
             {
             match('('); if (state.failed) return ;
 
@@ -1436,8 +1436,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = RPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:9: ( ')' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1637:11: ')'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1666:9: ( ')' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1666:11: ')'
             {
             match(')'); if (state.failed) return ;
 
@@ -1456,8 +1456,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LBRACK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:9: ( '[' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1638:11: '['
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1667:9: ( '[' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1667:11: '['
             {
             match('['); if (state.failed) return ;
 
@@ -1476,8 +1476,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = RBRACK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:9: ( ']' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1639:11: ']'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1668:9: ( ']' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1668:11: ']'
             {
             match(']'); if (state.failed) return ;
 
@@ -1496,8 +1496,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LBRACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:9: ( '{' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1640:11: '{'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:9: ( '{' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:11: '{'
             {
             match('{'); if (state.failed) return ;
 
@@ -1516,8 +1516,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = RBRACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:9: ( '}' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1641:11: '}'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:9: ( '}' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:11: '}'
             {
             match('}'); if (state.failed) return ;
 
@@ -1536,8 +1536,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:8: ( ':' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1642:10: ':'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:8: ( ':' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:10: ':'
             {
             match(':'); if (state.failed) return ;
 
@@ -1556,8 +1556,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DBL_COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:11: ( '::' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1643:13: '::'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:11: ( '::' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:13: '::'
             {
             match("::"); if (state.failed) return ;
 
@@ -1577,8 +1577,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = COMMA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:8: ( ',' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1644:10: ','
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:8: ( ',' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:10: ','
             {
             match(','); if (state.failed) return ;
 
@@ -1597,8 +1597,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:9: ( '=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1645:11: '='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:9: ( '=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:11: '='
             {
             match('='); if (state.failed) return ;
 
@@ -1617,8 +1617,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = EQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:8: ( '==' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1646:10: '=='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:8: ( '==' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:10: '=='
             {
             match("=="); if (state.failed) return ;
 
@@ -1638,8 +1638,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = STRICT_EQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:14: ( '===' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1647:16: '==='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:14: ( '===' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:16: '==='
             {
             match("==="); if (state.failed) return ;
 
@@ -1659,8 +1659,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LNOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1648:7: ( '!' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1648:9: '!'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:7: ( '!' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:9: '!'
             {
             match('!'); if (state.failed) return ;
 
@@ -1679,8 +1679,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BNOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:7: ( '~' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1649:9: '~'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:7: ( '~' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:9: '~'
             {
             match('~'); if (state.failed) return ;
 
@@ -1699,8 +1699,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = NOT_EQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:11: ( '!=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1650:13: '!='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:11: ( '!=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:13: '!='
             {
             match("!="); if (state.failed) return ;
 
@@ -1720,8 +1720,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = STRICT_NOT_EQUAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:17: ( '!==' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1651:19: '!=='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:17: ( '!==' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:19: '!=='
             {
             match("!=="); if (state.failed) return ;
 
@@ -1741,8 +1741,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = PLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:7: ( '+' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1652:9: '+'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:7: ( '+' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:9: '+'
             {
             match('+'); if (state.failed) return ;
 
@@ -1761,8 +1761,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = PLUS_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1653:13: ( '+=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1653:15: '+='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1682:13: ( '+=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1682:15: '+='
             {
             match("+="); if (state.failed) return ;
 
@@ -1782,8 +1782,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = INC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:6: ( '++' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1654:8: '++'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1683:6: ( '++' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1683:8: '++'
             {
             match("++"); if (state.failed) return ;
 
@@ -1803,8 +1803,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:8: ( '-' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1655:10: '-'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:8: ( '-' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:10: '-'
             {
             match('-'); if (state.failed) return ;
 
@@ -1823,8 +1823,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = MINUS_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:14: ( '-=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1656:16: '-='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:14: ( '-=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:16: '-='
             {
             match("-="); if (state.failed) return ;
 
@@ -1844,8 +1844,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DEC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:6: ( '--' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1657:8: '--'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1686:6: ( '--' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1686:8: '--'
             {
             match("--"); if (state.failed) return ;
 
@@ -1865,8 +1865,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = STAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:7: ( '*' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1658:9: '*'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1687:7: ( '*' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1687:9: '*'
             {
             match('*'); if (state.failed) return ;
 
@@ -1885,8 +1885,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = MOD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1661:6: ( '%' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1661:8: '%'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1690:6: ( '%' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1690:8: '%'
             {
             match('%'); if (state.failed) return ;
 
@@ -1905,8 +1905,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = MOD_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1662:12: ( '%=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1662:14: '%='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1691:12: ( '%=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1691:14: '%='
             {
             match("%="); if (state.failed) return ;
 
@@ -1926,8 +1926,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = GT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1668:5: ( '>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1668:7: '>'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1697:5: ( '>' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1697:7: '>'
             {
             match('>'); if (state.failed) return ;
 
@@ -1946,8 +1946,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BXOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:7: ( '^' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1669:9: '^'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1698:7: ( '^' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1698:9: '^'
             {
             match('^'); if (state.failed) return ;
 
@@ -1966,8 +1966,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BXOR_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:13: ( '^=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1670:15: '^='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1699:13: ( '^=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1699:15: '^='
             {
             match("^="); if (state.failed) return ;
 
@@ -1987,8 +1987,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:6: ( '|' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1671:8: '|'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1700:6: ( '|' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1700:8: '|'
             {
             match('|'); if (state.failed) return ;
 
@@ -2007,8 +2007,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BOR_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:12: ( '|=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1672:14: '|='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1701:12: ( '|=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1701:14: '|='
             {
             match("|="); if (state.failed) return ;
 
@@ -2028,8 +2028,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:6: ( '||' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1673:8: '||'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:6: ( '||' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1702:8: '||'
             {
             match("||"); if (state.failed) return ;
 
@@ -2049,8 +2049,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BAND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:7: ( '&' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1674:9: '&'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1703:7: ( '&' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1703:9: '&'
             {
             match('&'); if (state.failed) return ;
 
@@ -2069,8 +2069,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BAND_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:13: ( '&=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1675:15: '&='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1704:13: ( '&=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1704:15: '&='
             {
             match("&="); if (state.failed) return ;
 
@@ -2090,8 +2090,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LAND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:7: ( '&&' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1676:9: '&&'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:7: ( '&&' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:9: '&&'
             {
             match("&&"); if (state.failed) return ;
 
@@ -2111,8 +2111,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LAND_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:13: ( '&&=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1677:15: '&&='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:13: ( '&&=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1706:15: '&&='
             {
             match("&&="); if (state.failed) return ;
 
@@ -2132,8 +2132,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LOR_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:12: ( '||=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1678:14: '||='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1707:12: ( '||=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1707:14: '||='
             {
             match("||="); if (state.failed) return ;
 
@@ -2153,8 +2153,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = E4X_ATTRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:11: ( '@' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1679:13: '@'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1708:11: ( '@' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1708:13: '@'
             {
             match('@'); if (state.failed) return ;
 
@@ -2173,8 +2173,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SEMI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:7: ( ';' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1680:9: ';'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:7: ( ';' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:9: ';'
             {
             match(';'); if (state.failed) return ;
 
@@ -2193,8 +2193,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BSLASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:9: ( '\\\\' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1681:11: '\\\\'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:9: ( '\\\\' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:11: '\\\\'
             {
             match('\\'); if (state.failed) return ;
 
@@ -2213,8 +2213,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1683:6: ( '.' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1683:8: '.'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:6: ( '.' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:8: '.'
             {
             match('.'); if (state.failed) return ;
 
@@ -2233,8 +2233,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = E4X_DESC;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:10: ( '..' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1684:12: '..'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:10: ( '..' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1713:12: '..'
             {
             match(".."); if (state.failed) return ;
 
@@ -2254,8 +2254,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = REST;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:7: ( '...' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1685:9: '...'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1714:7: ( '...' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1714:9: '...'
             {
             match("..."); if (state.failed) return ;
 
@@ -2275,8 +2275,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DIV_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1687:12: ( '/=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1687:14: '/='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1716:12: ( '/=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1716:14: '/='
             {
             match("/="); if (state.failed) return ;
 
@@ -2296,8 +2296,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DIV;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1688:5: ( '/' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1688:7: '/'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:5: ( '/' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:7: '/'
             {
             match('/'); if (state.failed) return ;
 
@@ -2316,8 +2316,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = POST;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1690:7: ( '.<' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1690:9: '.<'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1719:7: ( '.<' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1719:9: '.<'
             {
             match(".<"); if (state.failed) return ;
 
@@ -2337,8 +2337,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1692:5: ( '<<' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1692:7: '<<'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1721:5: ( '<<' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1721:7: '<<'
             {
             match("<<"); if (state.failed) return ;
 
@@ -2358,8 +2358,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SL_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1693:11: ( '<<=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1693:13: '<<='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1722:11: ( '<<=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1722:13: '<<='
             {
             match("<<="); if (state.failed) return ;
 
@@ -2379,8 +2379,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1694:5: ( '<=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1694:7: '<='
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1723:5: ( '<=' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1723:7: '<='
             {
             match("<="); if (state.failed) return ;
 
@@ -2400,8 +2400,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = LT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1695:5: ( '<' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1695:7: '<'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1724:5: ( '<' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1724:7: '<'
             {
             match('<'); if (state.failed) return ;
 
@@ -2420,8 +2420,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = REGEXP_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1701:2: ({...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )? )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1701:4: {...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )?
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1730:2: ({...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )? )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1730:4: {...}? => '/' REGEX_BODY '/' ( REGEX_POSTFIX )?
             {
             if ( !(( constantIsOk() )) ) {
                 if (state.backtracking>0) {state.failed=true; return ;}
@@ -2430,7 +2430,7 @@ public class AS3Lexer extends Lexer {
             match('/'); if (state.failed) return ;
             mREGEX_BODY(); if (state.failed) return ;
             match('/'); if (state.failed) return ;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1701:45: ( REGEX_POSTFIX )?
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1730:45: ( REGEX_POSTFIX )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -2439,7 +2439,7 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1701:45: REGEX_POSTFIX
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1730:45: REGEX_POSTFIX
                     {
                     mREGEX_POSTFIX(); if (state.failed) return ;
 
@@ -2462,10 +2462,10 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "REGEX_POSTFIX"
     public final void mREGEX_POSTFIX() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+ )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+ )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1705:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )+
             int cnt2=0;
             loop2:
             do {
@@ -2479,7 +2479,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
             	    {
             	    if ( input.LA(1)=='$'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2517,10 +2517,10 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "REGEX_BODY"
     public final void mREGEX_BODY() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:2: ( ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )* )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1738:2: ( ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )* )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1738:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) ) ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1709:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1738:4: ( (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -2539,10 +2539,10 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt3) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
                     {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1710:6: ~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:4: (~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' ) )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1739:6: ~ ( '\\n' | '\\r' | '*' | '/' | '\\\\' )
                     {
                     if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<=')')||(input.LA(1)>='+' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                         input.consume();
@@ -2561,11 +2561,11 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:4: '\\\\' (~ ( '\\n' | '\\r' ) )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1741:4: '\\\\' (~ ( '\\n' | '\\r' ) )
                     {
                     match('\\'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:8: (~ ( '\\n' | '\\r' ) )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1712:9: ~ ( '\\n' | '\\r' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1741:8: (~ ( '\\n' | '\\r' ) )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1741:9: ~ ( '\\n' | '\\r' )
                     {
                     if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
                         input.consume();
@@ -2586,7 +2586,7 @@ public class AS3Lexer extends Lexer {
 
             }
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1714:3: ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:3: ( (~ ( '\\n' | '\\r' | '/' | '\\\\' ) ) | '\\\\' (~ ( '\\n' | '\\r' ) ) )*
             loop4:
             do {
                 int alt4=3;
@@ -2602,10 +2602,10 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1715:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
             	    {
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1715:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1715:5: ~ ( '\\n' | '\\r' | '/' | '\\\\' )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:4: (~ ( '\\n' | '\\r' | '/' | '\\\\' ) )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1744:5: ~ ( '\\n' | '\\r' | '/' | '\\\\' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2624,11 +2624,11 @@ public class AS3Lexer extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:4: '\\\\' (~ ( '\\n' | '\\r' ) )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1746:4: '\\\\' (~ ( '\\n' | '\\r' ) )
             	    {
             	    match('\\'); if (state.failed) return ;
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:8: (~ ( '\\n' | '\\r' ) )
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1717:9: ~ ( '\\n' | '\\r' )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1746:8: (~ ( '\\n' | '\\r' ) )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1746:9: ~ ( '\\n' | '\\r' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2666,8 +2666,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = XML_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1722:2: ( ( XML_LITERAL )=> XML_SUBTREE )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1722:4: ( XML_LITERAL )=> XML_SUBTREE
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1751:2: ( ( XML_LITERAL )=> XML_SUBTREE )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1751:4: ( XML_LITERAL )=> XML_SUBTREE
             {
             mXML_SUBTREE(); if (state.failed) return ;
 
@@ -2684,11 +2684,11 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_SUBTREE"
     public final void mXML_SUBTREE() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:2: ( '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:4: '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:2: ( '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:4: '<' ( IDENT | XML_BINDING ) ( XML_WS | XML_ATTRIBUTE )* ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
             {
             match('<'); if (state.failed) return ;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:8: ( IDENT | XML_BINDING )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:8: ( IDENT | XML_BINDING )
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -2707,14 +2707,14 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:9: IDENT
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:9: IDENT
                     {
                     mIDENT(); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:17: XML_BINDING
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:17: XML_BINDING
                     {
                     mXML_BINDING(); if (state.failed) return ;
 
@@ -2723,7 +2723,7 @@ public class AS3Lexer extends Lexer {
 
             }
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:30: ( XML_WS | XML_ATTRIBUTE )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:30: ( XML_WS | XML_ATTRIBUTE )*
             loop6:
             do {
                 int alt6=3;
@@ -2739,14 +2739,14 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:31: XML_WS
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:31: XML_WS
             	    {
             	    mXML_WS(); if (state.failed) return ;
 
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1726:40: XML_ATTRIBUTE
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:40: XML_ATTRIBUTE
             	    {
             	    mXML_ATTRIBUTE(); if (state.failed) return ;
 
@@ -2758,7 +2758,7 @@ public class AS3Lexer extends Lexer {
                 }
             } while (true);
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:3: ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:3: ( '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>' | '/>' )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -2777,10 +2777,10 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt8) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:5: '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:5: '>' ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )* '</' IDENT '>'
                     {
                     match('>'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:9: ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:9: ( XML_SUBTREE | XML_TEXTNODE | XML_COMMENT | XML_CDATA | XML_BINDING )*
                     loop7:
                     do {
                         int alt7=6;
@@ -2817,35 +2817,35 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:10: XML_SUBTREE
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:10: XML_SUBTREE
                     	    {
                     	    mXML_SUBTREE(); if (state.failed) return ;
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:24: XML_TEXTNODE
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:24: XML_TEXTNODE
                     	    {
                     	    mXML_TEXTNODE(); if (state.failed) return ;
 
                     	    }
                     	    break;
                     	case 3 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:39: XML_COMMENT
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:39: XML_COMMENT
                     	    {
                     	    mXML_COMMENT(); if (state.failed) return ;
 
                     	    }
                     	    break;
                     	case 4 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:53: XML_CDATA
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:53: XML_CDATA
                     	    {
                     	    mXML_CDATA(); if (state.failed) return ;
 
                     	    }
                     	    break;
                     	case 5 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1727:65: XML_BINDING
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:65: XML_BINDING
                     	    {
                     	    mXML_BINDING(); if (state.failed) return ;
 
@@ -2865,7 +2865,7 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1729:5: '/>'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1758:5: '/>'
                     {
                     match("/>"); if (state.failed) return ;
 
@@ -2887,11 +2887,11 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_ATTRIBUTE"
     public final void mXML_ATTRIBUTE() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:2: ( IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:4: IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:2: ( IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:4: IDENT ( XML_WS )* ASSIGN ( XML_WS )* ( STRING_LITERAL | XML_BINDING )
             {
             mIDENT(); if (state.failed) return ;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:10: ( XML_WS )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:10: ( XML_WS )*
             loop9:
             do {
                 int alt9=2;
@@ -2904,7 +2904,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:10: XML_WS
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:10: XML_WS
             	    {
             	    mXML_WS(); if (state.failed) return ;
 
@@ -2917,7 +2917,7 @@ public class AS3Lexer extends Lexer {
             } while (true);
 
             mASSIGN(); if (state.failed) return ;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:25: ( XML_WS )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:25: ( XML_WS )*
             loop10:
             do {
                 int alt10=2;
@@ -2930,7 +2930,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:25: XML_WS
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:25: XML_WS
             	    {
             	    mXML_WS(); if (state.failed) return ;
 
@@ -2942,7 +2942,7 @@ public class AS3Lexer extends Lexer {
                 }
             } while (true);
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:33: ( STRING_LITERAL | XML_BINDING )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:33: ( STRING_LITERAL | XML_BINDING )
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -2961,14 +2961,14 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt11) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:34: STRING_LITERAL
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:34: STRING_LITERAL
                     {
                     mSTRING_LITERAL(); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1734:51: XML_BINDING
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1763:51: XML_BINDING
                     {
                     mXML_BINDING(); if (state.failed) return ;
 
@@ -2989,8 +2989,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_BINDING"
     public final void mXML_BINDING() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1738:2: ( '{' XML_AS3_EXPRESSION '}' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1738:4: '{' XML_AS3_EXPRESSION '}'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:2: ( '{' XML_AS3_EXPRESSION '}' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:4: '{' XML_AS3_EXPRESSION '}'
             {
             match('{'); if (state.failed) return ;
             mXML_AS3_EXPRESSION(); if (state.failed) return ;
@@ -3007,10 +3007,10 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_AS3_EXPRESSION"
     public final void mXML_AS3_EXPRESSION() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:2: ( (~ ( '{' | '}' ) )* )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:4: (~ ( '{' | '}' ) )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1772:2: ( (~ ( '{' | '}' ) )* )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1772:4: (~ ( '{' | '}' ) )*
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:4: (~ ( '{' | '}' ) )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1772:4: (~ ( '{' | '}' ) )*
             loop12:
             do {
                 int alt12=2;
@@ -3023,7 +3023,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1743:5: ~ ( '{' | '}' )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1772:5: ~ ( '{' | '}' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='z')||input.LA(1)=='|'||(input.LA(1)>='~' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3056,10 +3056,10 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_TEXTNODE"
     public final void mXML_TEXTNODE() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1747:2: ( ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1747:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1776:2: ( ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1776:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1747:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1776:4: ( XML_WS | ( '/' ~ '>' )=> '/' | ~ ( '<' | '{' | '/' | XML_WS ) )
             int alt13=3;
             int LA13_0 = input.LA(1);
 
@@ -3081,21 +3081,21 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt13) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1748:4: XML_WS
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1777:4: XML_WS
                     {
                     mXML_WS(); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:6: ( '/' ~ '>' )=> '/'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1778:6: ( '/' ~ '>' )=> '/'
                     {
                     match('/'); if (state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1750:6: ~ ( '<' | '{' | '/' | XML_WS )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1779:6: ~ ( '<' | '{' | '/' | XML_WS )
                     {
                     if ( (input.LA(1)>='\u0000' && input.LA(1)<='\b')||input.LA(1)=='\u000B'||(input.LA(1)>='\u000E' && input.LA(1)<='\u001F')||(input.LA(1)>='!' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<=';')||(input.LA(1)>='=' && input.LA(1)<='z')||(input.LA(1)>='|' && input.LA(1)<='\uFFFF') ) {
                         input.consume();
@@ -3125,26 +3125,26 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_COMMENT"
     public final void mXML_COMMENT() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:2: ( '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1755:4: '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1784:2: ( '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1784:4: '<!--' ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )* '-->'
             {
             match("<!--"); if (state.failed) return ;
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1756:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1785:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*
             loop14:
             do {
                 int alt14=4;
                 alt14 = dfa14.predict(input);
                 switch (alt14) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1757:3: XML_WS
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1786:3: XML_WS
             	    {
             	    mXML_WS(); if (state.failed) return ;
 
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1758:5: ~ ( '-' | XML_WS )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1787:5: ~ ( '-' | XML_WS )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\b')||input.LA(1)=='\u000B'||(input.LA(1)>='\u000E' && input.LA(1)<='\u001F')||(input.LA(1)>='!' && input.LA(1)<=',')||(input.LA(1)>='.' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3160,7 +3160,7 @@ public class AS3Lexer extends Lexer {
             	    }
             	    break;
             	case 3 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1759:5: ( '-' ~ '-' )=> '-'
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1788:5: ( '-' ~ '-' )=> '-'
             	    {
             	    match('-'); if (state.failed) return ;
 
@@ -3186,33 +3186,33 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_CDATA"
     public final void mXML_CDATA() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1765:2: ( '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1765:4: '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1794:2: ( '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1794:4: '<![CDATA[' ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )* ']]>'
             {
             match("<![CDATA["); if (state.failed) return ;
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1766:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1795:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*
             loop15:
             do {
                 int alt15=4;
                 alt15 = dfa15.predict(input);
                 switch (alt15) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1766:5: XML_WS
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1795:5: XML_WS
             	    {
             	    mXML_WS(); if (state.failed) return ;
 
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:12: ( ']' ~ ']' )=> ']'
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1796:12: ( ']' ~ ']' )=> ']'
             	    {
             	    match(']'); if (state.failed) return ;
 
             	    }
             	    break;
             	case 3 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1768:12: ~ ( ']' | XML_WS )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1797:12: ~ ( ']' | XML_WS )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\b')||input.LA(1)=='\u000B'||(input.LA(1)>='\u000E' && input.LA(1)<='\u001F')||(input.LA(1)>='!' && input.LA(1)<='\\')||(input.LA(1)>='^' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3247,8 +3247,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "XML_WS"
     public final void mXML_WS() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1774:2: ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1803:2: ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
             {
             if ( (input.LA(1)>='\t' && input.LA(1)<='\n')||(input.LA(1)>='\f' && input.LA(1)<='\r')||input.LA(1)==' ' ) {
                 input.consume();
@@ -3274,8 +3274,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = IDENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1783:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )* )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1783:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1812:2: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )* )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1812:4: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
             {
             if ( input.LA(1)=='$'||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -3287,7 +3287,7 @@ public class AS3Lexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1784:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1813:3: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' | '$' )*
             loop16:
             do {
                 int alt16=2;
@@ -3300,7 +3300,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt16) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
             	    {
             	    if ( input.LA(1)=='$'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -3337,7 +3337,7 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = STRING_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2030:2: ( '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"' | '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\'' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2059:2: ( '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"' | '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\'' )
             int alt19=2;
             int LA19_0 = input.LA(1);
 
@@ -3356,10 +3356,10 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt19) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2030:4: '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2059:4: '\"' ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )* '\"'
                     {
                     match('\"'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2030:8: ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2059:8: ( ESC | ~ ( '\"' | '\\\\' | '\\n' | '\\r' ) )*
                     loop17:
                     do {
                         int alt17=3;
@@ -3375,14 +3375,14 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt17) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2030:9: ESC
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2059:9: ESC
                     	    {
                     	    mESC(); if (state.failed) return ;
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2030:13: ~ ( '\"' | '\\\\' | '\\n' | '\\r' )
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2059:13: ~ ( '\"' | '\\\\' | '\\n' | '\\r' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -3408,10 +3408,10 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:4: '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\''
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2060:4: '\\'' ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )* '\\''
                     {
                     match('\''); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:9: ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2060:9: ( ESC | ~ ( '\\'' | '\\\\' | '\\n' | '\\r' ) )*
                     loop18:
                     do {
                         int alt18=3;
@@ -3427,14 +3427,14 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt18) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:10: ESC
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2060:10: ESC
                     	    {
                     	    mESC(); if (state.failed) return ;
 
                     	    }
                     	    break;
                     	case 2 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2031:14: ~ ( '\\'' | '\\\\' | '\\n' | '\\r' )
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2060:14: ~ ( '\\'' | '\\\\' | '\\n' | '\\r' )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -3474,8 +3474,8 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = HEX_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2034:13: ( '0' ( 'x' | 'X' ) ( HEX_DIGIT )+ )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2034:15: '0' ( 'x' | 'X' ) ( HEX_DIGIT )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2063:13: ( '0' ( 'x' | 'X' ) ( HEX_DIGIT )+ )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2063:15: '0' ( 'x' | 'X' ) ( HEX_DIGIT )+
             {
             match('0'); if (state.failed) return ;
             if ( input.LA(1)=='X'||input.LA(1)=='x' ) {
@@ -3488,7 +3488,7 @@ public class AS3Lexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2034:29: ( HEX_DIGIT )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2063:29: ( HEX_DIGIT )+
             int cnt20=0;
             loop20:
             do {
@@ -3502,7 +3502,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt20) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2034:29: HEX_DIGIT
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2063:29: HEX_DIGIT
             	    {
             	    mHEX_DIGIT(); if (state.failed) return ;
 
@@ -3535,10 +3535,10 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = DECIMAL_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:17: ( ( '0' | '1' .. '9' ( '0' .. '9' )* ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:17: ( ( '0' | '1' .. '9' ( '0' .. '9' )* ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:19: ( '0' | '1' .. '9' ( '0' .. '9' )* )
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -3557,17 +3557,17 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt22) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:20: '0'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:20: '0'
                     {
                     match('0'); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:26: '1' .. '9' ( '0' .. '9' )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:26: '1' .. '9' ( '0' .. '9' )*
                     {
                     matchRange('1','9'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:35: ( '0' .. '9' )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:35: ( '0' .. '9' )*
                     loop21:
                     do {
                         int alt21=2;
@@ -3580,7 +3580,7 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt21) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2036:35: '0' .. '9'
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:35: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); if (state.failed) return ;
 
@@ -3614,11 +3614,11 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = OCTAL_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2038:15: ( '0' ( '0' .. '7' )+ )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2038:17: '0' ( '0' .. '7' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2067:15: ( '0' ( '0' .. '7' )+ )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2067:17: '0' ( '0' .. '7' )+
             {
             match('0'); if (state.failed) return ;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2038:21: ( '0' .. '7' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2067:21: ( '0' .. '7' )+
             int cnt23=0;
             loop23:
             do {
@@ -3632,7 +3632,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt23) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2038:22: '0' .. '7'
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2067:22: '0' .. '7'
             	    {
             	    matchRange('0','7'); if (state.failed) return ;
 
@@ -3665,7 +3665,7 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = FLOAT_LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:2: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )? | '.' ( '0' .. '9' )+ ( EXPONENT )? )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:2: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )? | '.' ( '0' .. '9' )+ ( EXPONENT )? )
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -3684,9 +3684,9 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:4: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:4: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( EXPONENT )?
                     {
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:4: ( '0' .. '9' )+
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:4: ( '0' .. '9' )+
                     int cnt24=0;
                     loop24:
                     do {
@@ -3700,7 +3700,7 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt24) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:5: '0' .. '9'
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:5: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); if (state.failed) return ;
 
@@ -3718,7 +3718,7 @@ public class AS3Lexer extends Lexer {
                     } while (true);
 
                     match('.'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:20: ( '0' .. '9' )*
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:20: ( '0' .. '9' )*
                     loop25:
                     do {
                         int alt25=2;
@@ -3731,7 +3731,7 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt25) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:21: '0' .. '9'
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:21: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); if (state.failed) return ;
 
@@ -3743,7 +3743,7 @@ public class AS3Lexer extends Lexer {
                         }
                     } while (true);
 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:32: ( EXPONENT )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:32: ( EXPONENT )?
                     int alt26=2;
                     int LA26_0 = input.LA(1);
 
@@ -3752,7 +3752,7 @@ public class AS3Lexer extends Lexer {
                     }
                     switch (alt26) {
                         case 1 :
-                            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2041:32: EXPONENT
+                            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2070:32: EXPONENT
                             {
                             mEXPONENT(); if (state.failed) return ;
 
@@ -3765,10 +3765,10 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:4: '.' ( '0' .. '9' )+ ( EXPONENT )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:4: '.' ( '0' .. '9' )+ ( EXPONENT )?
                     {
                     match('.'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:8: ( '0' .. '9' )+
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:8: ( '0' .. '9' )+
                     int cnt27=0;
                     loop27:
                     do {
@@ -3782,7 +3782,7 @@ public class AS3Lexer extends Lexer {
 
                         switch (alt27) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:9: '0' .. '9'
+                    	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:9: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); if (state.failed) return ;
 
@@ -3799,7 +3799,7 @@ public class AS3Lexer extends Lexer {
                         cnt27++;
                     } while (true);
 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:20: ( EXPONENT )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:20: ( EXPONENT )?
                     int alt28=2;
                     int LA28_0 = input.LA(1);
 
@@ -3808,7 +3808,7 @@ public class AS3Lexer extends Lexer {
                     }
                     switch (alt28) {
                         case 1 :
-                            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2042:20: EXPONENT
+                            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:20: EXPONENT
                             {
                             mEXPONENT(); if (state.failed) return ;
 
@@ -3835,10 +3835,10 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2046:4: ( ( ' ' | '\\t' | '\\f' )+ )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2046:6: ( ' ' | '\\t' | '\\f' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:4: ( ( ' ' | '\\t' | '\\f' )+ )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:6: ( ' ' | '\\t' | '\\f' )+
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2046:6: ( ' ' | '\\t' | '\\f' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2075:6: ( ' ' | '\\t' | '\\f' )+
             int cnt30=0;
             loop30:
             do {
@@ -3852,7 +3852,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt30) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)=='\f'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -3897,10 +3897,10 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = EOL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2055:2: ( ( '\\r' '\\n' | '\\r' | '\\n' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2055:4: ( '\\r' '\\n' | '\\r' | '\\n' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2084:2: ( ( '\\r' '\\n' | '\\r' | '\\n' ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2084:4: ( '\\r' '\\n' | '\\r' | '\\n' )
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2055:4: ( '\\r' '\\n' | '\\r' | '\\n' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2084:4: ( '\\r' '\\n' | '\\r' | '\\n' )
             int alt31=3;
             int LA31_0 = input.LA(1);
 
@@ -3925,7 +3925,7 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt31) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2056:4: '\\r' '\\n'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2085:4: '\\r' '\\n'
                     {
                     match('\r'); if (state.failed) return ;
                     match('\n'); if (state.failed) return ;
@@ -3933,14 +3933,14 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2057:5: '\\r'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2086:5: '\\r'
                     {
                     match('\r'); if (state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2058:5: '\\n'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2087:5: '\\n'
                     {
                     match('\n'); if (state.failed) return ;
 
@@ -3968,10 +3968,10 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = BOM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:5: ( ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2093:5: ( ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2093:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2093:7: ( '\\u00EF' '\\u00BB' '\\u00BF' | '\\uFEFF' )
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -3990,7 +3990,7 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt32) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2064:9: '\\u00EF' '\\u00BB' '\\u00BF'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2093:9: '\\u00EF' '\\u00BB' '\\u00BF'
                     {
                     match('\u00EF'); if (state.failed) return ;
                     match('\u00BB'); if (state.failed) return ;
@@ -3999,7 +3999,7 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2065:5: '\\uFEFF'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2094:5: '\\uFEFF'
                     {
                     match('\uFEFF'); if (state.failed) return ;
 
@@ -4027,12 +4027,12 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:2: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )? )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:4: '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )?
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:2: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )? )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:4: '//' (~ ( '\\n' | '\\r' ) )* ( '\\n' | '\\r' ( '\\n' )? )?
             {
             match("//"); if (state.failed) return ;
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:9: (~ ( '\\n' | '\\r' ) )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:9: (~ ( '\\n' | '\\r' ) )*
             loop33:
             do {
                 int alt33=2;
@@ -4045,7 +4045,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt33) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:10: ~ ( '\\n' | '\\r' )
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:10: ~ ( '\\n' | '\\r' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -4066,7 +4066,7 @@ public class AS3Lexer extends Lexer {
                 }
             } while (true);
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:25: ( '\\n' | '\\r' ( '\\n' )? )?
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:25: ( '\\n' | '\\r' ( '\\n' )? )?
             int alt35=3;
             int LA35_0 = input.LA(1);
 
@@ -4078,17 +4078,17 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt35) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:26: '\\n'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:26: '\\n'
                     {
                     match('\n'); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:31: '\\r' ( '\\n' )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:31: '\\r' ( '\\n' )?
                     {
                     match('\r'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:35: ( '\\n' )?
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:35: ( '\\n' )?
                     int alt34=2;
                     int LA34_0 = input.LA(1);
 
@@ -4097,7 +4097,7 @@ public class AS3Lexer extends Lexer {
                     }
                     switch (alt34) {
                         case 1 :
-                            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2071:36: '\\n'
+                            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:36: '\\n'
                             {
                             match('\n'); if (state.failed) return ;
 
@@ -4131,12 +4131,12 @@ public class AS3Lexer extends Lexer {
         try {
             int _type = ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2077:2: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2077:4: '/*' ( options {greedy=false; } : . )* '*/'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:2: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:4: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); if (state.failed) return ;
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2077:9: ( options {greedy=false; } : . )*
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:9: ( options {greedy=false; } : . )*
             loop36:
             do {
                 int alt36=2;
@@ -4161,7 +4161,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt36) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2077:37: .
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:37: .
             	    {
             	    matchAny(); if (state.failed) return ;
 
@@ -4192,8 +4192,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "EXPONENT"
     public final void mEXPONENT() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2082:2: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2082:4: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:2: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:4: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -4205,7 +4205,7 @@ public class AS3Lexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2082:14: ( '+' | '-' )?
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:14: ( '+' | '-' )?
             int alt37=2;
             int LA37_0 = input.LA(1);
 
@@ -4214,7 +4214,7 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt37) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -4232,7 +4232,7 @@ public class AS3Lexer extends Lexer {
 
             }
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2082:25: ( '0' .. '9' )+
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:25: ( '0' .. '9' )+
             int cnt38=0;
             loop38:
             do {
@@ -4246,7 +4246,7 @@ public class AS3Lexer extends Lexer {
 
                 switch (alt38) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2082:26: '0' .. '9'
+            	    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2111:26: '0' .. '9'
             	    {
             	    matchRange('0','9'); if (state.failed) return ;
 
@@ -4275,8 +4275,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "HEX_DIGIT"
     public final void mHEX_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2086:2: ( ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2086:4: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2115:2: ( ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2115:4: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
             {
             if ( (input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='F')||(input.LA(1)>='a' && input.LA(1)<='f') ) {
                 input.consume();
@@ -4300,8 +4300,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "OCT_DIGIT"
     public final void mOCT_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2090:2: ( '0' .. '7' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2090:4: '0' .. '7'
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2119:2: ( '0' .. '7' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2119:4: '0' .. '7'
             {
             matchRange('0','7'); if (state.failed) return ;
 
@@ -4316,7 +4316,7 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "ESC"
     public final void mESC() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2094:2: ( CTRLCHAR_ESC | UNICODE_ESC | OCTAL_ESC )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2123:2: ( CTRLCHAR_ESC | UNICODE_ESC | OCTAL_ESC )
             int alt39=3;
             int LA39_0 = input.LA(1);
 
@@ -4369,21 +4369,21 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt39) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2094:4: CTRLCHAR_ESC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2123:4: CTRLCHAR_ESC
                     {
                     mCTRLCHAR_ESC(); if (state.failed) return ;
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2095:4: UNICODE_ESC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2124:4: UNICODE_ESC
                     {
                     mUNICODE_ESC(); if (state.failed) return ;
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2096:4: OCTAL_ESC
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2125:4: OCTAL_ESC
                     {
                     mOCTAL_ESC(); if (state.failed) return ;
 
@@ -4400,8 +4400,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "CTRLCHAR_ESC"
     public final void mCTRLCHAR_ESC() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:2: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2100:4: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2129:2: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2129:4: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
             {
             match('\\'); if (state.failed) return ;
             if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -4426,7 +4426,7 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "OCTAL_ESC"
     public final void mOCTAL_ESC() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:2: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:2: ( '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) ( '0' .. '7' ) | '\\\\' ( '0' .. '7' ) )
             int alt40=3;
             int LA40_0 = input.LA(1);
 
@@ -4474,25 +4474,25 @@ public class AS3Lexer extends Lexer {
             }
             switch (alt40) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:4: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:4: '\\\\' ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
                     {
                     match('\\'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:9: ( '0' .. '3' )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:10: '0' .. '3'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:9: ( '0' .. '3' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:10: '0' .. '3'
                     {
                     matchRange('0','3'); if (state.failed) return ;
 
                     }
 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:20: ( '0' .. '7' )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:21: '0' .. '7'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:20: ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:21: '0' .. '7'
                     {
                     matchRange('0','7'); if (state.failed) return ;
 
                     }
 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:31: ( '0' .. '7' )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2104:32: '0' .. '7'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:31: ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2133:32: '0' .. '7'
                     {
                     matchRange('0','7'); if (state.failed) return ;
 
@@ -4502,18 +4502,18 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:4: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:4: '\\\\' ( '0' .. '7' ) ( '0' .. '7' )
                     {
                     match('\\'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:9: ( '0' .. '7' )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:10: '0' .. '7'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:9: ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:10: '0' .. '7'
                     {
                     matchRange('0','7'); if (state.failed) return ;
 
                     }
 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:20: ( '0' .. '7' )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2105:21: '0' .. '7'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:20: ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2134:21: '0' .. '7'
                     {
                     matchRange('0','7'); if (state.failed) return ;
 
@@ -4523,11 +4523,11 @@ public class AS3Lexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:4: '\\\\' ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2135:4: '\\\\' ( '0' .. '7' )
                     {
                     match('\\'); if (state.failed) return ;
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:9: ( '0' .. '7' )
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2106:10: '0' .. '7'
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2135:9: ( '0' .. '7' )
+                    // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2135:10: '0' .. '7'
                     {
                     matchRange('0','7'); if (state.failed) return ;
 
@@ -4547,8 +4547,8 @@ public class AS3Lexer extends Lexer {
     // $ANTLR start "UNICODE_ESC"
     public final void mUNICODE_ESC() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2110:2: ( '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2110:4: '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:2: ( '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+            // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:2139:4: '\\\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
             {
             match('\\'); if (state.failed) return ;
             match('u'); if (state.failed) return ;
@@ -4566,824 +4566,824 @@ public class AS3Lexer extends Lexer {
     // $ANTLR end "UNICODE_ESC"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:8: ( FINAL | OVERRIDE | INCLUDE | THROW | TRY | CATCH | FINALLY | VOID | INSTANCEOF | DELETE | TYPEOF | UNDEFINED | NATIVE | PACKAGE | PUBLIC | PRIVATE | PROTECTED | INTERNAL | FUNCTION | EXTENDS | IMPLEMENTS | VAR | STATIC | IF | IMPORT | FOR | EACH | IN | WHILE | DO | SWITCH | CASE | DEFAULT | ELSE | CONST | CLASS | INTERFACE | TRUE | FALSE | DYNAMIC | USE | NAMESPACE | IS | AS | GET | SET | WITH | RETURN | CONTINUE | BREAK | NULL | NEW | SUPER | THIS | QUESTION | LPAREN | RPAREN | LBRACK | RBRACK | LBRACE | RBRACE | COLON | DBL_COLON | COMMA | ASSIGN | EQUAL | STRICT_EQUAL | LNOT | BNOT | NOT_EQUAL | STRICT_NOT_EQUAL | PLUS | PLUS_ASSIGN | INC | MINUS | MINUS_ASSIGN | DEC | STAR | MOD | MOD_ASSIGN | GT | BXOR | BXOR_ASSIGN | BOR | BOR_ASSIGN | LOR | BAND | BAND_ASSIGN | LAND | LAND_ASSIGN | LOR_ASSIGN | E4X_ATTRI | SEMI | BSLASH | DOT | E4X_DESC | REST | DIV_ASSIGN | DIV | POST | SL | SL_ASSIGN | LE | LT | REGEXP_LITERAL | XML_LITERAL | IDENT | STRING_LITERAL | HEX_LITERAL | DECIMAL_LITERAL | OCTAL_LITERAL | FLOAT_LITERAL | WS | EOL | BOM | SL_COMMENT | ML_COMMENT )
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:8: ( FINAL | OVERRIDE | INCLUDE | THROW | TRY | CATCH | FINALLY | VOID | INSTANCEOF | DELETE | TYPEOF | UNDEFINED | NATIVE | PACKAGE | PUBLIC | PRIVATE | PROTECTED | INTERNAL | FUNCTION | EXTENDS | IMPLEMENTS | VAR | STATIC | IF | IMPORT | FOR | EACH | IN | WHILE | DO | SWITCH | CASE | DEFAULT | ELSE | CONST | CLASS | INTERFACE | TRUE | FALSE | DYNAMIC | USE | NAMESPACE | IS | AS | GET | SET | WITH | RETURN | CONTINUE | BREAK | NULL | NEW | SUPER | THIS | QUESTION | LPAREN | RPAREN | LBRACK | RBRACK | LBRACE | RBRACE | COLON | DBL_COLON | COMMA | ASSIGN | EQUAL | STRICT_EQUAL | LNOT | BNOT | NOT_EQUAL | STRICT_NOT_EQUAL | PLUS | PLUS_ASSIGN | INC | MINUS | MINUS_ASSIGN | DEC | STAR | MOD | MOD_ASSIGN | GT | BXOR | BXOR_ASSIGN | BOR | BOR_ASSIGN | LOR | BAND | BAND_ASSIGN | LAND | LAND_ASSIGN | LOR_ASSIGN | E4X_ATTRI | SEMI | BSLASH | DOT | E4X_DESC | REST | DIV_ASSIGN | DIV | POST | SL | SL_ASSIGN | LE | LT | REGEXP_LITERAL | XML_LITERAL | IDENT | STRING_LITERAL | HEX_LITERAL | DECIMAL_LITERAL | OCTAL_LITERAL | FLOAT_LITERAL | WS | EOL | BOM | SL_COMMENT | ML_COMMENT )
         int alt41=117;
         alt41 = dfa41.predict(input);
         switch (alt41) {
             case 1 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:10: FINAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:10: FINAL
                 {
                 mFINAL(); if (state.failed) return ;
 
                 }
                 break;
             case 2 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:16: OVERRIDE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:16: OVERRIDE
                 {
                 mOVERRIDE(); if (state.failed) return ;
 
                 }
                 break;
             case 3 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:25: INCLUDE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:25: INCLUDE
                 {
                 mINCLUDE(); if (state.failed) return ;
 
                 }
                 break;
             case 4 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:33: THROW
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:33: THROW
                 {
                 mTHROW(); if (state.failed) return ;
 
                 }
                 break;
             case 5 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:39: TRY
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:39: TRY
                 {
                 mTRY(); if (state.failed) return ;
 
                 }
                 break;
             case 6 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:43: CATCH
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:43: CATCH
                 {
                 mCATCH(); if (state.failed) return ;
 
                 }
                 break;
             case 7 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:49: FINALLY
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:49: FINALLY
                 {
                 mFINALLY(); if (state.failed) return ;
 
                 }
                 break;
             case 8 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:57: VOID
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:57: VOID
                 {
                 mVOID(); if (state.failed) return ;
 
                 }
                 break;
             case 9 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:62: INSTANCEOF
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:62: INSTANCEOF
                 {
                 mINSTANCEOF(); if (state.failed) return ;
 
                 }
                 break;
             case 10 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:73: DELETE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:73: DELETE
                 {
                 mDELETE(); if (state.failed) return ;
 
                 }
                 break;
             case 11 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:80: TYPEOF
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:80: TYPEOF
                 {
                 mTYPEOF(); if (state.failed) return ;
 
                 }
                 break;
             case 12 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:87: UNDEFINED
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:87: UNDEFINED
                 {
                 mUNDEFINED(); if (state.failed) return ;
 
                 }
                 break;
             case 13 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:97: NATIVE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:97: NATIVE
                 {
                 mNATIVE(); if (state.failed) return ;
 
                 }
                 break;
             case 14 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:104: PACKAGE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:104: PACKAGE
                 {
                 mPACKAGE(); if (state.failed) return ;
 
                 }
                 break;
             case 15 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:112: PUBLIC
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:112: PUBLIC
                 {
                 mPUBLIC(); if (state.failed) return ;
 
                 }
                 break;
             case 16 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:119: PRIVATE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:119: PRIVATE
                 {
                 mPRIVATE(); if (state.failed) return ;
 
                 }
                 break;
             case 17 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:127: PROTECTED
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:127: PROTECTED
                 {
                 mPROTECTED(); if (state.failed) return ;
 
                 }
                 break;
             case 18 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:137: INTERNAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:137: INTERNAL
                 {
                 mINTERNAL(); if (state.failed) return ;
 
                 }
                 break;
             case 19 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:146: FUNCTION
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:146: FUNCTION
                 {
                 mFUNCTION(); if (state.failed) return ;
 
                 }
                 break;
             case 20 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:155: EXTENDS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:155: EXTENDS
                 {
                 mEXTENDS(); if (state.failed) return ;
 
                 }
                 break;
             case 21 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:163: IMPLEMENTS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:163: IMPLEMENTS
                 {
                 mIMPLEMENTS(); if (state.failed) return ;
 
                 }
                 break;
             case 22 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:174: VAR
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:174: VAR
                 {
                 mVAR(); if (state.failed) return ;
 
                 }
                 break;
             case 23 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:178: STATIC
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:178: STATIC
                 {
                 mSTATIC(); if (state.failed) return ;
 
                 }
                 break;
             case 24 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:185: IF
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:185: IF
                 {
                 mIF(); if (state.failed) return ;
 
                 }
                 break;
             case 25 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:188: IMPORT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:188: IMPORT
                 {
                 mIMPORT(); if (state.failed) return ;
 
                 }
                 break;
             case 26 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:195: FOR
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:195: FOR
                 {
                 mFOR(); if (state.failed) return ;
 
                 }
                 break;
             case 27 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:199: EACH
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:199: EACH
                 {
                 mEACH(); if (state.failed) return ;
 
                 }
                 break;
             case 28 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:204: IN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:204: IN
                 {
                 mIN(); if (state.failed) return ;
 
                 }
                 break;
             case 29 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:207: WHILE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:207: WHILE
                 {
                 mWHILE(); if (state.failed) return ;
 
                 }
                 break;
             case 30 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:213: DO
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:213: DO
                 {
                 mDO(); if (state.failed) return ;
 
                 }
                 break;
             case 31 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:216: SWITCH
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:216: SWITCH
                 {
                 mSWITCH(); if (state.failed) return ;
 
                 }
                 break;
             case 32 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:223: CASE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:223: CASE
                 {
                 mCASE(); if (state.failed) return ;
 
                 }
                 break;
             case 33 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:228: DEFAULT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:228: DEFAULT
                 {
                 mDEFAULT(); if (state.failed) return ;
 
                 }
                 break;
             case 34 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:236: ELSE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:236: ELSE
                 {
                 mELSE(); if (state.failed) return ;
 
                 }
                 break;
             case 35 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:241: CONST
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:241: CONST
                 {
                 mCONST(); if (state.failed) return ;
 
                 }
                 break;
             case 36 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:247: CLASS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:247: CLASS
                 {
                 mCLASS(); if (state.failed) return ;
 
                 }
                 break;
             case 37 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:253: INTERFACE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:253: INTERFACE
                 {
                 mINTERFACE(); if (state.failed) return ;
 
                 }
                 break;
             case 38 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:263: TRUE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:263: TRUE
                 {
                 mTRUE(); if (state.failed) return ;
 
                 }
                 break;
             case 39 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:268: FALSE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:268: FALSE
                 {
                 mFALSE(); if (state.failed) return ;
 
                 }
                 break;
             case 40 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:274: DYNAMIC
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:274: DYNAMIC
                 {
                 mDYNAMIC(); if (state.failed) return ;
 
                 }
                 break;
             case 41 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:282: USE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:282: USE
                 {
                 mUSE(); if (state.failed) return ;
 
                 }
                 break;
             case 42 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:286: NAMESPACE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:286: NAMESPACE
                 {
                 mNAMESPACE(); if (state.failed) return ;
 
                 }
                 break;
             case 43 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:296: IS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:296: IS
                 {
                 mIS(); if (state.failed) return ;
 
                 }
                 break;
             case 44 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:299: AS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:299: AS
                 {
                 mAS(); if (state.failed) return ;
 
                 }
                 break;
             case 45 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:302: GET
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:302: GET
                 {
                 mGET(); if (state.failed) return ;
 
                 }
                 break;
             case 46 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:306: SET
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:306: SET
                 {
                 mSET(); if (state.failed) return ;
 
                 }
                 break;
             case 47 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:310: WITH
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:310: WITH
                 {
                 mWITH(); if (state.failed) return ;
 
                 }
                 break;
             case 48 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:315: RETURN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:315: RETURN
                 {
                 mRETURN(); if (state.failed) return ;
 
                 }
                 break;
             case 49 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:322: CONTINUE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:322: CONTINUE
                 {
                 mCONTINUE(); if (state.failed) return ;
 
                 }
                 break;
             case 50 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:331: BREAK
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:331: BREAK
                 {
                 mBREAK(); if (state.failed) return ;
 
                 }
                 break;
             case 51 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:337: NULL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:337: NULL
                 {
                 mNULL(); if (state.failed) return ;
 
                 }
                 break;
             case 52 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:342: NEW
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:342: NEW
                 {
                 mNEW(); if (state.failed) return ;
 
                 }
                 break;
             case 53 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:346: SUPER
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:346: SUPER
                 {
                 mSUPER(); if (state.failed) return ;
 
                 }
                 break;
             case 54 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:352: THIS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:352: THIS
                 {
                 mTHIS(); if (state.failed) return ;
 
                 }
                 break;
             case 55 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:357: QUESTION
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:357: QUESTION
                 {
                 mQUESTION(); if (state.failed) return ;
 
                 }
                 break;
             case 56 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:366: LPAREN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:366: LPAREN
                 {
                 mLPAREN(); if (state.failed) return ;
 
                 }
                 break;
             case 57 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:373: RPAREN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:373: RPAREN
                 {
                 mRPAREN(); if (state.failed) return ;
 
                 }
                 break;
             case 58 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:380: LBRACK
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:380: LBRACK
                 {
                 mLBRACK(); if (state.failed) return ;
 
                 }
                 break;
             case 59 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:387: RBRACK
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:387: RBRACK
                 {
                 mRBRACK(); if (state.failed) return ;
 
                 }
                 break;
             case 60 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:394: LBRACE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:394: LBRACE
                 {
                 mLBRACE(); if (state.failed) return ;
 
                 }
                 break;
             case 61 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:401: RBRACE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:401: RBRACE
                 {
                 mRBRACE(); if (state.failed) return ;
 
                 }
                 break;
             case 62 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:408: COLON
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:408: COLON
                 {
                 mCOLON(); if (state.failed) return ;
 
                 }
                 break;
             case 63 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:414: DBL_COLON
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:414: DBL_COLON
                 {
                 mDBL_COLON(); if (state.failed) return ;
 
                 }
                 break;
             case 64 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:424: COMMA
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:424: COMMA
                 {
                 mCOMMA(); if (state.failed) return ;
 
                 }
                 break;
             case 65 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:430: ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:430: ASSIGN
                 {
                 mASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 66 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:437: EQUAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:437: EQUAL
                 {
                 mEQUAL(); if (state.failed) return ;
 
                 }
                 break;
             case 67 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:443: STRICT_EQUAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:443: STRICT_EQUAL
                 {
                 mSTRICT_EQUAL(); if (state.failed) return ;
 
                 }
                 break;
             case 68 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:456: LNOT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:456: LNOT
                 {
                 mLNOT(); if (state.failed) return ;
 
                 }
                 break;
             case 69 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:461: BNOT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:461: BNOT
                 {
                 mBNOT(); if (state.failed) return ;
 
                 }
                 break;
             case 70 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:466: NOT_EQUAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:466: NOT_EQUAL
                 {
                 mNOT_EQUAL(); if (state.failed) return ;
 
                 }
                 break;
             case 71 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:476: STRICT_NOT_EQUAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:476: STRICT_NOT_EQUAL
                 {
                 mSTRICT_NOT_EQUAL(); if (state.failed) return ;
 
                 }
                 break;
             case 72 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:493: PLUS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:493: PLUS
                 {
                 mPLUS(); if (state.failed) return ;
 
                 }
                 break;
             case 73 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:498: PLUS_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:498: PLUS_ASSIGN
                 {
                 mPLUS_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 74 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:510: INC
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:510: INC
                 {
                 mINC(); if (state.failed) return ;
 
                 }
                 break;
             case 75 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:514: MINUS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:514: MINUS
                 {
                 mMINUS(); if (state.failed) return ;
 
                 }
                 break;
             case 76 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:520: MINUS_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:520: MINUS_ASSIGN
                 {
                 mMINUS_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 77 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:533: DEC
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:533: DEC
                 {
                 mDEC(); if (state.failed) return ;
 
                 }
                 break;
             case 78 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:537: STAR
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:537: STAR
                 {
                 mSTAR(); if (state.failed) return ;
 
                 }
                 break;
             case 79 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:542: MOD
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:542: MOD
                 {
                 mMOD(); if (state.failed) return ;
 
                 }
                 break;
             case 80 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:546: MOD_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:546: MOD_ASSIGN
                 {
                 mMOD_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 81 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:557: GT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:557: GT
                 {
                 mGT(); if (state.failed) return ;
 
                 }
                 break;
             case 82 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:560: BXOR
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:560: BXOR
                 {
                 mBXOR(); if (state.failed) return ;
 
                 }
                 break;
             case 83 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:565: BXOR_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:565: BXOR_ASSIGN
                 {
                 mBXOR_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 84 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:577: BOR
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:577: BOR
                 {
                 mBOR(); if (state.failed) return ;
 
                 }
                 break;
             case 85 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:581: BOR_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:581: BOR_ASSIGN
                 {
                 mBOR_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 86 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:592: LOR
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:592: LOR
                 {
                 mLOR(); if (state.failed) return ;
 
                 }
                 break;
             case 87 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:596: BAND
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:596: BAND
                 {
                 mBAND(); if (state.failed) return ;
 
                 }
                 break;
             case 88 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:601: BAND_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:601: BAND_ASSIGN
                 {
                 mBAND_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 89 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:613: LAND
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:613: LAND
                 {
                 mLAND(); if (state.failed) return ;
 
                 }
                 break;
             case 90 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:618: LAND_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:618: LAND_ASSIGN
                 {
                 mLAND_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 91 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:630: LOR_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:630: LOR_ASSIGN
                 {
                 mLOR_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 92 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:641: E4X_ATTRI
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:641: E4X_ATTRI
                 {
                 mE4X_ATTRI(); if (state.failed) return ;
 
                 }
                 break;
             case 93 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:651: SEMI
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:651: SEMI
                 {
                 mSEMI(); if (state.failed) return ;
 
                 }
                 break;
             case 94 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:656: BSLASH
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:656: BSLASH
                 {
                 mBSLASH(); if (state.failed) return ;
 
                 }
                 break;
             case 95 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:663: DOT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:663: DOT
                 {
                 mDOT(); if (state.failed) return ;
 
                 }
                 break;
             case 96 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:667: E4X_DESC
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:667: E4X_DESC
                 {
                 mE4X_DESC(); if (state.failed) return ;
 
                 }
                 break;
             case 97 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:676: REST
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:676: REST
                 {
                 mREST(); if (state.failed) return ;
 
                 }
                 break;
             case 98 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:681: DIV_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:681: DIV_ASSIGN
                 {
                 mDIV_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 99 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:692: DIV
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:692: DIV
                 {
                 mDIV(); if (state.failed) return ;
 
                 }
                 break;
             case 100 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:696: POST
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:696: POST
                 {
                 mPOST(); if (state.failed) return ;
 
                 }
                 break;
             case 101 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:701: SL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:701: SL
                 {
                 mSL(); if (state.failed) return ;
 
                 }
                 break;
             case 102 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:704: SL_ASSIGN
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:704: SL_ASSIGN
                 {
                 mSL_ASSIGN(); if (state.failed) return ;
 
                 }
                 break;
             case 103 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:714: LE
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:714: LE
                 {
                 mLE(); if (state.failed) return ;
 
                 }
                 break;
             case 104 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:717: LT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:717: LT
                 {
                 mLT(); if (state.failed) return ;
 
                 }
                 break;
             case 105 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:720: REGEXP_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:720: REGEXP_LITERAL
                 {
                 mREGEXP_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 106 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:735: XML_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:735: XML_LITERAL
                 {
                 mXML_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 107 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:747: IDENT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:747: IDENT
                 {
                 mIDENT(); if (state.failed) return ;
 
                 }
                 break;
             case 108 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:753: STRING_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:753: STRING_LITERAL
                 {
                 mSTRING_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 109 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:768: HEX_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:768: HEX_LITERAL
                 {
                 mHEX_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 110 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:780: DECIMAL_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:780: DECIMAL_LITERAL
                 {
                 mDECIMAL_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 111 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:796: OCTAL_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:796: OCTAL_LITERAL
                 {
                 mOCTAL_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 112 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:810: FLOAT_LITERAL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:810: FLOAT_LITERAL
                 {
                 mFLOAT_LITERAL(); if (state.failed) return ;
 
                 }
                 break;
             case 113 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:824: WS
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:824: WS
                 {
                 mWS(); if (state.failed) return ;
 
                 }
                 break;
             case 114 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:827: EOL
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:827: EOL
                 {
                 mEOL(); if (state.failed) return ;
 
                 }
                 break;
             case 115 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:831: BOM
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:831: BOM
                 {
                 mBOM(); if (state.failed) return ;
 
                 }
                 break;
             case 116 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:835: SL_COMMENT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:835: SL_COMMENT
                 {
                 mSL_COMMENT(); if (state.failed) return ;
 
                 }
                 break;
             case 117 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:846: ML_COMMENT
+                // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1:846: ML_COMMENT
                 {
                 mML_COMMENT(); if (state.failed) return ;
 
@@ -5396,8 +5396,8 @@ public class AS3Lexer extends Lexer {
 
     // $ANTLR start synpred2_AS3
     public final void synpred2_AS3_fragment() throws RecognitionException {   
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:6: ( '/' ~ '>' )
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1749:7: '/' ~ '>'
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1778:6: ( '/' ~ '>' )
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1778:7: '/' ~ '>'
         {
         match('/'); if (state.failed) return ;
         if ( (input.LA(1)>='\u0000' && input.LA(1)<='=')||(input.LA(1)>='?' && input.LA(1)<='\uFFFF') ) {
@@ -5417,8 +5417,8 @@ public class AS3Lexer extends Lexer {
 
     // $ANTLR start synpred3_AS3
     public final void synpred3_AS3_fragment() throws RecognitionException {   
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1759:5: ( '-' ~ '-' )
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1759:6: '-' ~ '-'
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1788:5: ( '-' ~ '-' )
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1788:6: '-' ~ '-'
         {
         match('-'); if (state.failed) return ;
         if ( (input.LA(1)>='\u0000' && input.LA(1)<=',')||(input.LA(1)>='.' && input.LA(1)<='\uFFFF') ) {
@@ -5438,8 +5438,8 @@ public class AS3Lexer extends Lexer {
 
     // $ANTLR start synpred4_AS3
     public final void synpred4_AS3_fragment() throws RecognitionException {   
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:12: ( ']' ~ ']' )
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1767:13: ']' ~ ']'
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1796:12: ( ']' ~ ']' )
+        // C:\\Users\\Teoti\\Documents\\Flash\\ws-as-blocks\\as3commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\as3\\AS3.g:1796:13: ']' ~ ']'
         {
         match(']'); if (state.failed) return ;
         if ( (input.LA(1)>='\u0000' && input.LA(1)<='\\')||(input.LA(1)>='^' && input.LA(1)<='\uFFFF') ) {
@@ -5560,7 +5560,7 @@ public class AS3Lexer extends Lexer {
             this.transition = DFA14_transition;
         }
         public String getDescription() {
-            return "()* loopback of 1756:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*";
+            return "()* loopback of 1785:3: ( XML_WS | ~ ( '-' | XML_WS ) | ( '-' ~ '-' )=> '-' )*";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             IntStream input = _input;
@@ -5697,7 +5697,7 @@ public class AS3Lexer extends Lexer {
             this.transition = DFA15_transition;
         }
         public String getDescription() {
-            return "()* loopback of 1766:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*";
+            return "()* loopback of 1795:3: ( XML_WS | ( ']' ~ ']' )=> ']' | ~ ( ']' | XML_WS ) )*";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             IntStream input = _input;

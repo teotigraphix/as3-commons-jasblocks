@@ -178,17 +178,34 @@ package org.as3commons.asblocks.parser.antlr.as3;
 		return AS3ParserHelper.findVirtualHiddenToken(input, retval);
 	}
 	
-	boolean highlevelParse = false;
+	boolean packageBlockParse = false;
 	
-	public void setHighlevelParse(boolean value)
+	public boolean getPackageBlockParse()
 	{
-		highlevelParse = value;
+		return packageBlockParse;
+	}	
+	
+	public void setPackageBlockParse(boolean value)
+	{
+		packageBlockParse = value;
+	}	
+	
+	boolean typeBlockParse = false;
+	
+	public boolean getTypeBlockParse()
+	{
+		return typeBlockParse;
+	}	
+	
+	public void setTypeBlockParse(boolean value)
+	{
+		typeBlockParse = value;
 	}
 	
 	private boolean parseBlock(ParserRuleReturnScope retval)
 	{
 		return AS3ParserHelper.parseBlock(input, retval, (LinkedListTreeAdaptor) adaptor);
-	}	
+	}
 }
 
 //------------------------------------------------------------------------------
@@ -491,6 +508,14 @@ scope InOperator;
 //------------------------------------------------------------------------------
 
 classTypeBlock
+@init {
+	if (packageBlockParse)
+	{
+		retval.tree = (LinkedListTree) adaptor.create(TYPE_BLOCK, "TYPE_BLOCK");
+		parseBlock(retval);
+		return retval;
+	}
+}
 	:	LBRACE
 		classTypeBlockEntry*
 		RBRACE
@@ -514,11 +539,15 @@ classTypeBlockEntry
 		)
 	;
 
-//testme 	:
-//		
-//	;
-
 interfaceTypeBlock
+@init {
+	if (packageBlockParse)
+	{
+		retval.tree = (LinkedListTree) adaptor.create(TYPE_BLOCK, "TYPE_BLOCK");
+		parseBlock(retval);
+		return retval;
+	}
+}
 	:	LBRACE
 		interfaceTypeBlockEntry*
 		RBRACE
@@ -629,7 +658,7 @@ accessorRole
 
 block
 @init {
-	if (highlevelParse)
+	if (typeBlockParse)
 	{
 		retval.tree = (LinkedListTree) adaptor.create(BLOCK, "BLOCK");
 		parseBlock(retval);

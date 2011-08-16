@@ -284,7 +284,7 @@ public class ASTASProject implements IASProject
 					if (file.getAbsolutePath().endsWith(".as"))
 					{
 						in = new FileInputStream(file);
-						unit = asparser.parseHighlevelIn(new InputStreamReader(
+						unit = asparser.parseTypeBlockIn(new InputStreamReader(
 								in));
 						addCompilationUnit(unit);
 					}
