@@ -66,10 +66,10 @@ public class ASTASParser implements IASParser
 	}
 
 	@Override
-	public IASCompilationUnit parseHighlevel(String source)
+	public IASCompilationUnit parseTypeBlock(String source)
 	{
 		AS3Parser parser = ASTUtils.parse(source);
-		parser.setHighlevelParse(true);
+		parser.setTypeBlockParse(true);
 		LinkedListTree cu;
 		try
 		{
@@ -83,10 +83,44 @@ public class ASTASParser implements IASParser
 	}
 
 	@Override
-	public IASCompilationUnit parseHighlevelIn(Reader in)
+	public IASCompilationUnit parseTypeBlockIn(Reader in)
 	{
 		AS3Parser parser = ASTUtils.parse(in);
-		parser.setHighlevelParse(true);
+		parser.setTypeBlockParse(true);
+		LinkedListTree cu;
+		try
+		{
+			cu = AS3FragmentParser.tree(parser.compilationUnit());
+		}
+		catch (RecognitionException e)
+		{
+			throw ASTUtils.buildSyntaxException(null, parser, e);
+		}
+		return new ASTASCompilationUnit(cu);
+	}
+
+	@Override
+	public IASCompilationUnit parsePackageBlock(String source)
+	{
+		AS3Parser parser = ASTUtils.parse(source);
+		parser.setPackageBlockParse(true);
+		LinkedListTree cu;
+		try
+		{
+			cu = AS3FragmentParser.tree(parser.compilationUnit());
+		}
+		catch (RecognitionException e)
+		{
+			throw ASTUtils.buildSyntaxException(null, parser, e);
+		}
+		return new ASTASCompilationUnit(cu);
+	}
+
+	@Override
+	public IASCompilationUnit parsePackageBlockIn(Reader in)
+	{
+		AS3Parser parser = ASTUtils.parse(in);
+		parser.setPackageBlockParse(true);
 		LinkedListTree cu;
 		try
 		{

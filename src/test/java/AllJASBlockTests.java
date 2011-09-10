@@ -59,7 +59,7 @@ import org.as3commons.asblocks.parser.antlr.TestLinkedListTokenStream;
 import org.as3commons.asblocks.parser.antlr.TestLinkedListTree;
 import org.as3commons.asblocks.parser.antlr.as3.TestAS3Parser_CompilationUnit;
 import org.as3commons.asblocks.parser.antlr.as3.Test_AS3Parser_Expressions;
-import org.as3commons.asblocks.parser.antlr.as3.Test_HightlevelParse;
+import org.as3commons.asblocks.parser.antlr.as3.Test_AS3ParserModes;
 import org.as3commons.asblocks.parser.antlr.asdoc.TestASDocParser;
 
 public class AllJASBlockTests
@@ -70,7 +70,7 @@ public class AllJASBlockTests
 		TestSuite suite = new TestSuite("Test for org.as3commons.asblocks");
 		//$JUnit-BEGIN$
 		
-		suite.addTestSuite(Test_HightlevelParse.class);
+		suite.addTestSuite(Test_AS3ParserModes.class);
 		suite.addTestSuite(TestAS3Parser_CompilationUnit.class);
 
 		suite.addTestSuite(TestAST.class);

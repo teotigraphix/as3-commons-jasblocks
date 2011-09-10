@@ -82,7 +82,7 @@ public interface IASParser
 	 * 
 	 * @since 1.0
 	 */
-	public IASCompilationUnit parseHighlevel(String source);
+	public IASCompilationUnit parseTypeBlock(String source);
 
 	/**
 	 * Parses the <code>Reader</code>s source code data at a highlevel.
@@ -93,7 +93,11 @@ public interface IASParser
 	 * @throws org.as3commons.asblocks.ASBlocksSyntaxError
 	 * 
 	 * @since 1.0
-	 * @see #parseHighlevel(String)
+	 * @see #parseTypeBlock(String)
 	 */
-	public IASCompilationUnit parseHighlevelIn(Reader reader);
+	public IASCompilationUnit parseTypeBlockIn(Reader reader);
+	
+	public IASCompilationUnit parsePackageBlock(String source);
+	
+	public IASCompilationUnit parsePackageBlockIn(Reader reader);
 }
