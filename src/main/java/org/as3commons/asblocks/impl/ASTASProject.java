@@ -52,370 +52,386 @@ import org.as3commons.asblocks.dom.Visibility;
 
 public class ASTASProject implements IASProject
 {
-    private ASFactory factory;
+	private ASFactory factory;
 
-    private List<IASCompilationUnit> compilationUnits = new ArrayList<IASCompilationUnit>();
+	private List<IASCompilationUnit> compilationUnits = new ArrayList<IASCompilationUnit>();
 
-    private List<String> classPaths = new ArrayList<String>();
+	private List<String> classPaths = new ArrayList<String>();
 
-    private Map<String, IResourceRoot> classPathResourceRoots = new HashMap<String, IResourceRoot>();
+	private Map<String, IResourceRoot> classPathResourceRoots = new HashMap<String, IResourceRoot>();
 
-    private String outputLocation;
+	private String outputLocation;
 
-    private List<String> sourcePaths = new ArrayList<String>();
+	private List<String> sourcePaths = new ArrayList<String>();
 
-    private Map<String, IResourceRoot> sourcePathResourceRoots = new HashMap<String, IResourceRoot>();
+	private Map<String, IResourceRoot> sourcePathResourceRoots = new HashMap<String, IResourceRoot>();
 
-    private Map<String, IASFile> files = new HashMap<String, IASFile>();
+	private Map<String, IASFile> files = new HashMap<String, IASFile>();
 
-    // --------------------------------------------------------------------------
-    //
-    // IASProject API :: Properties
-    //
-    // --------------------------------------------------------------------------
+	//--------------------------------------------------------------------------
+	//
+	//  IASProject API :: Properties
+	//
+	//--------------------------------------------------------------------------
 
-    @Override
-    public List<IASCompilationUnit> getCompilationUnits()
-    {
-        return Collections.unmodifiableList(compilationUnits);
-    }
+	@Override
+	public List<IASCompilationUnit> getCompilationUnits()
+	{
+		return Collections.unmodifiableList(compilationUnits);
+	}
 
-    @Override
-    public List<String> getClassPathEntries()
-    {
-        return Collections.unmodifiableList(classPaths);
-    }
+	@Override
+	public List<String> getClassPathEntries()
+	{
+		return Collections.unmodifiableList(classPaths);
+	}
 
-    @Override
-    public Collection<IResourceRoot> getClassPathResourceRoots()
-    {
-        return classPathResourceRoots.values();
-    }
+	@Override
+	public Collection<IResourceRoot> getClassPathResourceRoots()
+	{
+		return classPathResourceRoots.values();
+	}
 
-    @Override
-    public List<String> getSourcePathEntries()
-    {
-        return Collections.unmodifiableList(sourcePaths);
-    }
+	@Override
+	public List<String> getSourcePathEntries()
+	{
+		return Collections.unmodifiableList(sourcePaths);
+	}
 
-    @Override
-    public Collection<IResourceRoot> getSourcePathResourceRoots()
-    {
-        return classPathResourceRoots.values();
-    }
+	@Override
+	public Collection<IResourceRoot> getSourcePathResourceRoots()
+	{
+		return classPathResourceRoots.values();
+	}
 
-    @Override
-    public IASFile getFile(File file)
-    {
-        return files.get(file.getAbsolutePath());
-    }
+	@Override
+	public IASFile getFile(File file)
+	{
+		return files.get(file.getAbsolutePath());
+	}
 
-    @Override
-    public IASFile getFileForCompilationUnit(IASCompilationUnit unit)
-    {
-        for (Entry<String, IASFile> set : files.entrySet())
-        {
-            IASFile file = set.getValue();
-            if (file.getCompilationUnit().equals(unit))
-            {
-                return file;
-            }
-        }
-        return null;
-    }
+	@Override
+	public IASFile getFileForCompilationUnit(IASCompilationUnit unit)
+	{
+		for (Entry<String, IASFile> set : files.entrySet())
+		{
+			IASFile file = set.getValue();
+			if (file.getCompilationUnit().equals(unit))
+			{
+				return file;
+			}
+		}
+		return null;
+	}
 
-    @Override
-    public List<IASFile> getASFiles()
-    {
-        return (List<IASFile>) files.values();
-    }
+	@Override
+	public List<IASFile> getASFiles()
+	{
+		return (List<IASFile>) files.values();
+	}
 
-    @Override
-    public String getOutputLocation()
-    {
-        return outputLocation;
-    }
+	@Override
+	public String getOutputLocation()
+	{
+		return outputLocation;
+	}
 
-    @Override
-    public void setOutputLocation(String outputLocation)
-    {
-        this.outputLocation = outputLocation;
-    }
+	@Override
+	public void setOutputLocation(String outputLocation)
+	{
+		this.outputLocation = outputLocation;
+	}
 
-    private File getAbsoluteOutputLocation()
-    {
-        return new File(outputLocation);
-    }
+	private File getAbsoluteOutputLocation()
+	{
+		return new File(outputLocation);
+	}
 
-    // --------------------------------------------------------------------------
-    //
-    // Constructor
-    //
-    // --------------------------------------------------------------------------
+	//--------------------------------------------------------------------------
+	//
+	//  Constructor
+	//
+	//--------------------------------------------------------------------------
 
-    /**
-     * Constructor, creates a new project with the associated factory.
-     * 
-     * @param factory The <code>ASFactory</code> implementation used with the
-     *            project. This instance will be used when creating types.
-     */
-    public ASTASProject(ASFactory factory)
-    {
-        this.factory = factory;
-    }
+	/**
+	 * Constructor, creates a new project with the associated factory.
+	 * 
+	 * @param factory The <code>ASFactory</code> implementation used with the
+	 * project. This instance will be used when creating types.
+	 */
+	public ASTASProject(ASFactory factory)
+	{
+		this.factory = factory;
+	}
 
-    // --------------------------------------------------------------------------
-    //
-    // IASProject API :: Methods
-    //
-    // --------------------------------------------------------------------------
+	//--------------------------------------------------------------------------
+	//
+	//  IASProject API :: Methods
+	//
+	//--------------------------------------------------------------------------
 
-    @Override
-    public boolean addCompilationUnit(IASCompilationUnit unit)
-    {
-        compilationUnits.add(unit);
-        addFileUnit(unit);
-        return true;
-    }
+	@Override
+	public boolean addCompilationUnit(IASCompilationUnit unit)
+	{
+		compilationUnits.add(unit);
+		addFileUnit(unit);
+		return true;
+	}
 
-    @Override
-    public boolean removeCompilationUnit(IASCompilationUnit unit)
-    {
-        compilationUnits.remove(unit);
-        // TODO removeFileUnit()
-        return true;
-    }
+	@Override
+	public boolean removeCompilationUnit(IASCompilationUnit unit)
+	{
+		compilationUnits.remove(unit);
+		//TODO removeFileUnit()
+		return true;
+	}
 
-    @Override
-    public boolean addClassPath(String classpathEntry)
-    {
-        if (classPaths.contains(classpathEntry))
-            return false;
+	@Override
+	public boolean addClassPath(String classpathEntry)
+	{
+		if (classPaths.contains(classpathEntry))
+			return false;
 
-        IResourceRoot root = resourceRootFor(classpathEntry);
-        classPathResourceRoots.put(classpathEntry, root);
-        classPaths.add(classpathEntry);
+		IResourceRoot root = resourceRootFor(classpathEntry);
+		classPathResourceRoots.put(classpathEntry, root);
+		classPaths.add(classpathEntry);
 
-        return true;
-    }
+		return true;
+	}
 
-    @Override
-    public boolean removeClassPath(String classPathEntry)
-    {
-        classPaths.remove(classPathEntry);
-        classPathResourceRoots.remove(classPathEntry);
-        return true;
-    }
+	@Override
+	public boolean removeClassPath(String classPathEntry)
+	{
+		classPaths.remove(classPathEntry);
+		classPathResourceRoots.remove(classPathEntry);
+		return true;
+	}
 
-    @Override
-    public boolean addSourcePath(String sourcePathEntry)
-    {
-        if (sourcePaths.contains(sourcePathEntry))
-            return false;
+	@Override
+	public boolean addSourcePath(String sourcePathEntry)
+	{
+		if (sourcePaths.contains(sourcePathEntry))
+			return false;
 
-        IResourceRoot root = resourceRootFor(sourcePathEntry);
-        sourcePathResourceRoots.put(sourcePathEntry, root);
-        sourcePaths.add(sourcePathEntry);
+		IResourceRoot root = resourceRootFor(sourcePathEntry);
+		sourcePathResourceRoots.put(sourcePathEntry, root);
+		sourcePaths.add(sourcePathEntry);
 
-        return true;
-    }
+		return true;
+	}
 
-    @Override
-    public boolean removeSourcePath(String sourcePathEntry)
-    {
-        sourcePaths.remove(sourcePathEntry);
-        sourcePathResourceRoots.remove(sourcePathEntry);
-        return true;
-    }
+	@Override
+	public boolean removeSourcePath(String sourcePathEntry)
+	{
+		sourcePaths.remove(sourcePathEntry);
+		sourcePathResourceRoots.remove(sourcePathEntry);
+		return true;
+	}
 
-    @Override
-    public IASCompilationUnit newClass(String qualifiedClassName)
-    {
-        IASCompilationUnit unit = factory.newClass(qualifiedClassName);
-        addCompilationUnit(unit);
-        return unit;
-    }
+	@Override
+	public IASCompilationUnit newClass(String qualifiedClassName)
+	{
+		IASCompilationUnit unit = factory.newClass(qualifiedClassName);
+		addCompilationUnit(unit);
+		return unit;
+	}
 
-    @Override
-    public IASCompilationUnit newInterface(String qualifiedInterfaceName)
-    {
-        IASCompilationUnit unit = factory.newInterface(qualifiedInterfaceName);
-        addCompilationUnit(unit);
-        return unit;
-    }
+	@Override
+	public IASCompilationUnit newInterface(String qualifiedInterfaceName)
+	{
+		IASCompilationUnit unit = factory.newInterface(qualifiedInterfaceName);
+		addCompilationUnit(unit);
+		return unit;
+	}
 
-    @Override
-    public IASCompilationUnit newFunction(String qualifiedName,
-            Visibility visibility, String returnType)
-    {
-        IASCompilationUnit unit = factory.newFunction(qualifiedName, returnType);
-        addCompilationUnit(unit);
-        return unit;
-    }
+	@Override
+	public IASCompilationUnit newFunction(String qualifiedName,
+			Visibility visibility, String returnType)
+	{
+		IASCompilationUnit unit = factory.newFunction(qualifiedName, returnType);
+		addCompilationUnit(unit);
+		return unit;
+	}
 
-    @Override
-    public IASCompilationUnit newNamespace(String name, String uri)
-    {
-        IASCompilationUnit unit = factory.newNamespace(name, uri);
-        addCompilationUnit(unit);
-        return unit;
-    }
+	@Override
+	public IASCompilationUnit newNamespace(String name, String uri)
+	{
+		IASCompilationUnit unit = factory.newNamespace(name, uri);
+		addCompilationUnit(unit);
+		return unit;
+	}
 
-    @Override
-    public void readAll()
-    {
-        List<String> failedFiles = new ArrayList<String>();
+	@Override
+	public void readAll()
+	{
+		List<String> failedFiles = new ArrayList<String>();
 
-        for (IResourceRoot root : sourcePathResourceRoots.values())
-        {
-            List<ASQName> qnames = root.getDefinitionQNames();
-            for (ASQName qname : qnames)
-            {
-                System.out.println(qname);
-                IASParser asparser = createParser(qname);
+		for (IResourceRoot root : sourcePathResourceRoots.values())
+		{
+			List<ASQName> qnames = root.getDefinitionQNames();
+			for (ASQName qname : qnames)
+			{
+				System.out.println(qname);
+				IASParser asparser = factory.newParser();
+//				IASParser fxparser = new ASTFXParser();
 
-                if (asparser == null)
-                    continue;
+				File file = toSourceFile(root.getPath(), qname);
 
-                File file = toSourceFile(root.getPath(), qname);
+				FileInputStream in;
+				IASCompilationUnit unit;
+				try
+				{
+					if (file.getAbsolutePath().endsWith(".as"))
+					{
+						in = new FileInputStream(file);
+						unit = asparser.parseHighlevelIn(new InputStreamReader(
+								in));
+						addCompilationUnit(unit);
+					}
+					else if (file.getAbsolutePath().endsWith(".mxml"))
+					{
+//						in = new FileInputStream(file);
+//						unit = fxparser.parseIn(new InputStreamReader(in));
+//						((ASTFXCompilationUnit) unit).setQName((FXQname) qname);
+//						addCompilationUnit(unit);
+					}
 
-                IASCompilationUnit unit;
+					//addFile(file, unit);
+				}
+				catch (FileNotFoundException e)
+				{
+					e.printStackTrace();
+				}
+				catch (ASBlocksSyntaxError e)
+				{
+					String error = file.getAbsolutePath() + "\n" + "-"
+							+ e.getMessage();
 
-                try
-                {
-                    unit = parseFile(file, qname, asparser);
-                    addCompilationUnit(unit);
-                    // addFile(file, unit);
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
-                } catch (ASBlocksSyntaxError e) {
-                    String error = file.getAbsolutePath() + "\n" + "-"
-                            + e.getMessage();
+					System.err.println(error);
 
-                    System.err.println(error);
+					failedFiles.add(error);
+				}
+				catch (RewriteEmptyStreamException e)
+				{
+					String error = file.getAbsolutePath() + "\n" + "-"
+							+ e.getMessage();
 
-                    failedFiles.add(error);
-                } catch (RewriteEmptyStreamException e) {
-                    String error = file.getAbsolutePath() + "\n" + "-"
-                            + e.getMessage();
+					System.err.println(error);
 
-                    System.err.println(error);
+					failedFiles.add(error);
+				}
+				//InputStream in = getClass().getClassLoader().getResourceAsStream("AllSyntax.as");
+				//ActionScriptParser parser = fact.newParser();
+				//ASCompilationUnit unit = parser.parse(new InputStreamReader(in));				
 
-                    failedFiles.add(error);
-                }
-            }
-        }
-        System.err.println("done");
-    }
+			}
+		}
+		System.err.println("done");
+	}
 
-    protected IASCompilationUnit parseFile(File file, ASQName qname, IASParser parser)
-            throws FileNotFoundException {
-        if (file.getAbsolutePath().endsWith(".as")) {
-            FileInputStream in = new FileInputStream(file);
-            IASCompilationUnit unit = parser.parseTypeBlockIn(new InputStreamReader(
-                    in));
-            return unit;
-        }
-        return null;
-    }
+	private void addFile(File file, IASCompilationUnit unit)
+	{
+		files.put(file.getAbsolutePath(), new ASTASFile(file, unit));
+	}
 
-    protected IASParser createParser(ASQName qname) {
-        return factory.newParser();
-    }
+	private File toSourceFile(File path, ASQName name)
+	{
+//		if (name instanceof FXQname)
+//		{
+//			String base = path.getAbsolutePath();
+//			String tail = name.toString().replace(".", File.separator);
+//			return new File(base + File.separator + tail + ".mxml");
+//		}
+//		else
+//		{
+			String base = path.getAbsolutePath();
+			String tail = name.toString().replace(".", File.separator);
+			return new File(base + File.separator + tail + ".as");
+//		}
+	}
 
-    private void addFile(File file, IASCompilationUnit unit)
-    {
-        files.put(file.getAbsolutePath(), new ASTASFile(file, unit));
-    }
+	@Override
+	public void writeAll() throws IOException
+	{
+		for (Iterator<IASCompilationUnit> i = compilationUnits.iterator(); i.hasNext();)
+		{
+			IASCompilationUnit cu = (IASCompilationUnit) i.next();
+			write(outputLocation, cu);
+		}
+	}
 
-    protected File toSourceFile(File path, ASQName name)
-    {
-        String base = path.getAbsolutePath();
-        String tail = name.toString().replace(".", File.separator);
-        return new File(base + File.separator + tail + ".as");
-    }
+	//--------------------------------------------------------------------------
+	//
+	//  Private :: Methods
+	//
+	//--------------------------------------------------------------------------
 
-    @Override
-    public void writeAll() throws IOException
-    {
-        for (Iterator<IASCompilationUnit> i = compilationUnits.iterator(); i.hasNext();)
-        {
-            IASCompilationUnit cu = (IASCompilationUnit) i.next();
-            write(outputLocation, cu);
-        }
-    }
+	private IResourceRoot resourceRootFor(String classpathEntry)
+	{
+		File path = new File(classpathEntry);
+		if (path.isDirectory())
+		{
+			return new SourceFolderResourceRoot(path);
+		}
+		if (classpathEntry.endsWith(".swc"))
+		{
+			try
+			{
+				return new SWCResourceRoot(path);
+			}
+			catch (IOException e)
+			{
+				throw new RuntimeException(e);
+			}
+		}
+		throw new IllegalArgumentException("Unknown resorce type: "
+				+ classpathEntry);
+	}
 
-    // --------------------------------------------------------------------------
-    //
-    // Private :: Methods
-    //
-    // --------------------------------------------------------------------------
+	public void performAutoImport()
+	{
+		//AutoImporter autoImporter = new AutoImporter();
+		//autoImporter.performAutoImport(this);
+	}
 
-    private IResourceRoot resourceRootFor(String classpathEntry)
-    {
-        File path = new File(classpathEntry);
-        if (path.isDirectory())
-        {
-            return new SourceFolderResourceRoot(path);
-        }
-        if (classpathEntry.endsWith(".swc"))
-        {
-            try
-            {
-                return new SWCResourceRoot(path);
-            } catch (IOException e)
-            {
-                throw new RuntimeException(e);
-            }
-        }
-        throw new IllegalArgumentException("Unknown resorce type: "
-                + classpathEntry);
-    }
+	/**
+	 * Writes the ActionScript code in the given CompilationUnit to the
+	 * given directory, creating any subfolders for package hierarchy as
+	 * appropriate, and deriving the filename from the name of the type
+	 * defined by the compilation unit.
+	 */
+	private void write(String destinationDir, IASCompilationUnit cu)
+			throws IOException
+	{
+		String filename = filenameFor(cu);
+		File destFile = new File(destinationDir, filename);
+		destFile.getParentFile().mkdirs();
+		FileOutputStream os = new FileOutputStream(destFile);
+		OutputStreamWriter out = new OutputStreamWriter(os);
+		factory.newWriter().write(out, cu);
+		out.close();
+	}
 
-    public void performAutoImport()
-    {
-        // AutoImporter autoImporter = new AutoImporter();
-        // autoImporter.performAutoImport(this);
-    }
+	private static String filenameFor(IASCompilationUnit unit)
+	{
+		String name;
+		String pkg = unit.getPackageName();
+		if (pkg == null || pkg.equals(""))
+		{
+			name = unit.getType().getName();
+		}
+		else
+		{
+			name = unit.getPackageName() + "." + unit.getType().getName();
+		}
+		return name.replace('.', File.separatorChar) + ".as";
+	}
 
-    /**
-     * Writes the ActionScript code in the given CompilationUnit to the given
-     * directory, creating any subfolders for package hierarchy as appropriate,
-     * and deriving the filename from the name of the type defined by the
-     * compilation unit.
-     */
-    private void write(String destinationDir, IASCompilationUnit cu)
-            throws IOException
-    {
-        String filename = filenameFor(cu);
-        File destFile = new File(destinationDir, filename);
-        destFile.getParentFile().mkdirs();
-        FileOutputStream os = new FileOutputStream(destFile);
-        OutputStreamWriter out = new OutputStreamWriter(os);
-        factory.newWriter().write(out, cu);
-        out.close();
-    }
-
-    private static String filenameFor(IASCompilationUnit unit)
-    {
-        String name;
-        String pkg = unit.getPackageName();
-        if (pkg == null || pkg.equals(""))
-        {
-            name = unit.getType().getName();
-        }
-        else
-        {
-            name = unit.getPackageName() + "." + unit.getType().getName();
-        }
-        return name.replace('.', File.separatorChar) + ".as";
-    }
-
-    private void addFileUnit(IASCompilationUnit unit)
-    {
-        File path = getAbsoluteOutputLocation();
-        File file = toSourceFile(path, unit.getQName());
-        addFile(file, unit);
-    }
+	private void addFileUnit(IASCompilationUnit unit)
+	{
+		File path = getAbsoluteOutputLocation();
+		File file = toSourceFile(path, unit.getQName());
+		addFile(file, unit);
+	}
 
 }
