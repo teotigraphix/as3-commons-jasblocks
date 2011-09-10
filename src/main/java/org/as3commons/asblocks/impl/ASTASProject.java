@@ -306,7 +306,7 @@ public class ASTASProject implements IASProject
             }
         }
         System.err.println("done");
-    }
+    } 
 
     protected IASCompilationUnit parseFile(File file, ASQName qname, IASParser parser)
             throws FileNotFoundException {
