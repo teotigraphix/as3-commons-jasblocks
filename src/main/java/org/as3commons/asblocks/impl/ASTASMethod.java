@@ -24,7 +24,6 @@ import java.util.List;
 import org.as3commons.asblocks.ASBlocksSyntaxError;
 import org.as3commons.asblocks.dom.ASQName;
 import org.as3commons.asblocks.dom.AccessorRole;
-import org.as3commons.asblocks.dom.IASAccessor;
 import org.as3commons.asblocks.dom.IASBreakStatement;
 import org.as3commons.asblocks.dom.IASConfigStatement;
 import org.as3commons.asblocks.dom.IASContinueStatement;
@@ -64,9 +63,7 @@ public class ASTASMethod extends ASTASMember implements IASMethod
 	@Override
 	public ASQName getQName()
 	{
-		String tail = "";
-		if (!(this instanceof IASAccessor))
-			tail += "()";
+		String tail = "()";
 
 		ASQName name = ASQName.create(getParent().getQualifiedName() + "#"
 				+ getName() + tail);
