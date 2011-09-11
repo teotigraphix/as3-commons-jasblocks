@@ -1,18 +1,18 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Copyright 2011 Michael Schmalle - Teoti Graphix, LLC
-// 
+//
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-// 
-// http://www.apache.org/licenses/LICENSE-2.0 
-// 
-// Unless required by applicable law or agreed to in writing, software 
-// distributed under the License is distributed on an "AS IS" BASIS, 
+//
+// http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and 
+// See the License for the specific language governing permissions and
 // limitations under the License
-// 
+//
 // Author: Michael Schmalle, Principal Architect
 // mschmalle at teotigraphix dot com
 ////////////////////////////////////////////////////////////////////////////////
@@ -272,30 +272,45 @@ public class ASTASProject implements IASProject
             for (ASQName qname : qnames)
             {
                 System.out.println(qname);
-                IASParser asparser = createParser(qname);
-
-                if (asparser == null)
-                    continue;
+                IASParser asparser = factory.newParser();
+                // IASParser fxparser = new ASTFXParser();
 
                 File file = toSourceFile(root.getPath(), qname);
 
+                FileInputStream in;
                 IASCompilationUnit unit;
-
                 try
                 {
-                    unit = parseFile(file, qname, asparser);
-                    addCompilationUnit(unit);
+                    if (file.getAbsolutePath().endsWith(".as"))
+                    {
+                        in = new FileInputStream(file);
+                        unit = asparser.parseTypeBlockIn(new InputStreamReader(
+                                in));
+                        addCompilationUnit(unit);
+                    }
+                    else if (file.getAbsolutePath().endsWith(".mxml"))
+                    {
+                        // in = new FileInputStream(file);
+                        // unit = fxparser.parseIn(new InputStreamReader(in));
+                        // ((ASTFXCompilationUnit) unit).setQName((FXQname)
+                        // qname);
+                        // addCompilationUnit(unit);
+                    }
+
                     // addFile(file, unit);
-                } catch (FileNotFoundException e) {
+                } catch (FileNotFoundException e)
+                {
                     e.printStackTrace();
-                } catch (ASBlocksSyntaxError e) {
+                } catch (ASBlocksSyntaxError e)
+                {
                     String error = file.getAbsolutePath() + "\n" + "-"
                             + e.getMessage();
 
                     System.err.println(error);
 
                     failedFiles.add(error);
-                } catch (RewriteEmptyStreamException e) {
+                } catch (RewriteEmptyStreamException e)
+                {
                     String error = file.getAbsolutePath() + "\n" + "-"
                             + e.getMessage();
 
@@ -303,24 +318,15 @@ public class ASTASProject implements IASProject
 
                     failedFiles.add(error);
                 }
+                // InputStream in =
+                // getClass().getClassLoader().getResourceAsStream("AllSyntax.as");
+                // ActionScriptParser parser = fact.newParser();
+                // ASCompilationUnit unit = parser.parse(new
+                // InputStreamReader(in));
+
             }
         }
         System.err.println("done");
-    } 
-
-    protected IASCompilationUnit parseFile(File file, ASQName qname, IASParser parser)
-            throws FileNotFoundException {
-        if (file.getAbsolutePath().endsWith(".as")) {
-            FileInputStream in = new FileInputStream(file);
-            IASCompilationUnit unit = parser.parseTypeBlockIn(new InputStreamReader(
-                    in));
-            return unit;
-        }
-        return null;
-    }
-
-    protected IASParser createParser(ASQName qname) {
-        return factory.newParser();
     }
 
     private void addFile(File file, IASCompilationUnit unit)
@@ -328,11 +334,20 @@ public class ASTASProject implements IASProject
         files.put(file.getAbsolutePath(), new ASTASFile(file, unit));
     }
 
-    protected File toSourceFile(File path, ASQName name)
+    private File toSourceFile(File path, ASQName name)
     {
+        // if (name instanceof FXQname)
+        // {
+        // String base = path.getAbsolutePath();
+        // String tail = name.toString().replace(".", File.separator);
+        // return new File(base + File.separator + tail + ".mxml");
+        // }
+        // else
+        // {
         String base = path.getAbsolutePath();
         String tail = name.toString().replace(".", File.separator);
         return new File(base + File.separator + tail + ".as");
+        // }
     }
 
     @Override
