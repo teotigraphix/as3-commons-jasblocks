@@ -151,7 +151,7 @@ public class ASTASPackage extends ASTScriptElement implements IASPackage
 	@Override
 	public boolean hasMetaTag(String name)
 	{
-		return MetaTagUtils.hasMetaTags(findBlock());
+	    return MetaTagUtils.hasMetaTag(findBlock(), name);
 	}
 
 	@Override
