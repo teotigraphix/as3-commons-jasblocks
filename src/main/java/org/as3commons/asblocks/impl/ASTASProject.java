@@ -142,7 +142,7 @@ public class ASTASProject implements IASProject
         this.outputLocation = outputLocation;
     }
 
-    private File getAbsoluteOutputLocation()
+    protected File getAbsoluteOutputLocation()
     {
         return new File(outputLocation);
     }
@@ -174,7 +174,6 @@ public class ASTASProject implements IASProject
     public boolean addCompilationUnit(IASCompilationUnit unit)
     {
         compilationUnits.add(unit);
-        addFileUnit(unit);
         return true;
     }
 
@@ -285,7 +284,7 @@ public class ASTASProject implements IASProject
                 {
                     unit = parseFile(file, qname, asparser);
                     addCompilationUnit(unit);
-                    // addFile(file, unit);
+                    addFile(file, unit);
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 } catch (ASBlocksSyntaxError e) {
@@ -323,7 +322,7 @@ public class ASTASProject implements IASProject
         return factory.newParser();
     }
 
-    private void addFile(File file, IASCompilationUnit unit)
+    protected void addFile(File file, IASCompilationUnit unit)
     {
         files.put(file.getAbsolutePath(), new ASTASFile(file, unit));
     }
@@ -411,9 +410,12 @@ public class ASTASProject implements IASProject
         return name.replace('.', File.separatorChar) + ".as";
     }
 
-    private void addFileUnit(IASCompilationUnit unit)
+    protected void addFileUnit(IASCompilationUnit unit)
     {
         File path = getAbsoluteOutputLocation();
+        if (path.getPath().equals(".")) {
+            path = new File("");
+        }
         File file = toSourceFile(path, unit.getQName());
         addFile(file, unit);
     }
