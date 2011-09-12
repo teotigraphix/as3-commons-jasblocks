@@ -30,16 +30,6 @@ import org.as3commons.asblocks.dom.ASQName;
  */
 public class FXQname extends ASQName
 {
-    private File classPath;
-
-    public File getClassPath() {
-        return classPath;
-    }
-
-    public void setClassPath(File classPath) {
-        this.classPath = classPath;
-    }
-
     public FXQname(String qname) {
         super(qname);
     }
@@ -47,7 +37,7 @@ public class FXQname extends ASQName
     public FXQname(String qname, File classPath) {
         super(qname);
 
-        this.classPath = classPath;
+        setClassPath(classPath.getAbsolutePath());
     }
 
     public FXQname(String packageName, String localName) {

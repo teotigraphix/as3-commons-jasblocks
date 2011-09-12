@@ -73,8 +73,18 @@ public class ASQName
 	private String localName = null;
 	private String fragmentName = null;
 	private String fragmentType = null;
+	
+	private String mClassPath;
 
-	public ASQName(String qname)
+	public String getClassPath() {
+        return mClassPath;
+    }
+
+    public void setClassPath(String value) {
+        this.mClassPath = value;
+    }
+
+    public ASQName(String qname)
 	{
 		int pos = qname.lastIndexOf('.');
 		if (pos != -1)

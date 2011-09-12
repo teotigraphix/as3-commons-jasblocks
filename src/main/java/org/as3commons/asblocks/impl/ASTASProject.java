@@ -101,7 +101,7 @@ public class ASTASProject implements IASProject
     @Override
     public Collection<IResourceRoot> getSourcePathResourceRoots()
     {
-        return classPathResourceRoots.values();
+        return sourcePathResourceRoots.values();
     }
 
     @Override
