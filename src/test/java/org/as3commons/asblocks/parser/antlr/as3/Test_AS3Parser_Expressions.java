@@ -22,14 +22,42 @@ package org.as3commons.asblocks.parser.antlr.as3;
 import junit.framework.TestCase;
 
 import org.antlr.runtime.ParserRuleReturnScope;
+import org.antlr.runtime.RecognitionException;
+import org.as3commons.asblocks.impl.ASTUtils;
 import org.as3commons.asblocks.parser.antlr.LinkedListTree;
 
 public class Test_AS3Parser_Expressions extends TestCase
 {
+    LinkedListTree t;
+    AS3Parser parser = null;
+    String r = null;
+    String xml = null;
+    
+    private void debug(ParserRuleReturnScope scope)
+    {
+        t = tree(scope);
+        r = t.toStringTree();
+        xml = ASTUtils.convert(t, false);
+        r = toString().trim();
+    }    
+    
 	public void test_package()
 	{
+		String data = "var foo:Vector.<Number> = new <Number>[0,0,0,0,0];";
+		parser = ASTUtils.parse(data);
+		
+		//try {
+        //    t = tree(parser.statement());
+        //} catch (RecognitionException e) {
+        //   
+        //    e.printStackTrace();
+        //}
+		
+		
 		
 	}
+	
+	
 	@SuppressWarnings("unused")
 	private LinkedListTree tree(ParserRuleReturnScope expression)
 	{
