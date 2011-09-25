@@ -38,134 +38,140 @@ import org.as3commons.asblocks.parser.antlr.as3.AS3Parser;
 public class MetaTagUtils
 {
 
-	public static boolean hasMetaTags(LinkedListTree ast)
-	{
-		ASTIterator i = iterTags(ast);
-		return i.hasNext();
-	}
+    public static boolean hasMetaTags(LinkedListTree ast)
+    {
+        ASTIterator i = iterTags(ast);
+        return i.hasNext();
+    }
 
-	public static boolean hasMetaTag(LinkedListTree ast, String name)
-	{
-		ASTIterator i = iterTags(ast);
-		while (i.hasNext())
-		{
-			LinkedListTree child = i.next();
-			if (child.getType() == AS3Parser.METATAG)
-			{
-				if (toMetaTag(child).getName().equals(name))
-					return true;
-			}
-		}
-		return false;
-	}
+    public static boolean hasMetaTag(LinkedListTree ast, String name)
+    {
+        ASTIterator i = iterTags(ast);
+        while (i.hasNext())
+        {
+            LinkedListTree child = i.next();
+            if (child.getType() == AS3Parser.METATAG)
+            {
+                if (toMetaTag(child).getName().equals(name))
+                    return true;
+            }
+        }
+        return false;
+    }
 
-	public static boolean removeMetaTag(LinkedListTree ast)
-	{
-		// TODO implement MetaTagUtils.removeMetaTag()
-		return true;
-	}
+    public static boolean removeMetaTag(LinkedListTree ast)
+    {
+        // TODO implement MetaTagUtils.removeMetaTag()
+        return true;
+    }
 
-	public static List<IASMetaTag> getAllMetaTags(LinkedListTree ast)
-	{
-		ASTIterator i = iterTags(ast);
-		List<IASMetaTag> result = new LinkedList<IASMetaTag>();
-		while (i.hasNext())
-		{
-			LinkedListTree child = i.next();
-			if (child.getType() == AS3Parser.METATAG)
-			{
-				result.add(toMetaTag(child));
-			}
-		}
-		return Collections.unmodifiableList(result);
-	}
+    public static List<IASMetaTag> getAllMetaTags(LinkedListTree ast)
+    {
+        ASTIterator i = iterTags(ast);
+        List<IASMetaTag> result = new LinkedList<IASMetaTag>();
+        while (i.hasNext())
+        {
+            LinkedListTree child = i.next();
+            if (child.getType() == AS3Parser.METATAG)
+            {
+                result.add(toMetaTag(child));
+            }
+        }
+        return Collections.unmodifiableList(result);
+    }
 
-	public static IASMetaTag getFirstMetaTag(LinkedListTree ast, String name)
-	{
-		ASTIterator i = iterTags(ast);
-		while (i.hasNext())
-		{
-			LinkedListTree child = i.next();
-			if (child.getType() == AS3Parser.METATAG)
-			{
-				ASTASMetaTag tag = toMetaTag(child);
-				if (tag.getName().equals(name))
-				{
-					return tag;
-				}
-			}
-		}
-		return null;
-	}
+    public static IASMetaTag getFirstMetaTag(LinkedListTree ast, String name)
+    {
+        ASTIterator i = iterTags(ast);
+        while (i.hasNext())
+        {
+            LinkedListTree child = i.next();
+            if (child.getType() == AS3Parser.METATAG)
+            {
+                ASTASMetaTag tag = toMetaTag(child);
+                if (tag.getName().equals(name))
+                {
+                    return tag;
+                }
+            }
+        }
+        return null;
+    }
 
-	public static List<IASMetaTag> getMetaTagWithName(LinkedListTree ast,
-			String name)
-	{
-		ASTIterator i = iterTags(ast);
-		List<IASMetaTag> result = new LinkedList<IASMetaTag>();
-		while (i.hasNext())
-		{
-			LinkedListTree child = i.next();
-			if (child.getType() == AS3Parser.METATAG)
-			{
-				ASTASMetaTag tag = toMetaTag(child);
-				if (tag.getName().equals(name))
-				{
-					result.add(tag);
-				}
-			}
-		}
-		return Collections.unmodifiableList(result);
-	}
+    public static List<IASMetaTag> getMetaTagWithName(LinkedListTree ast,
+            String name)
+    {
+        ASTIterator i = iterTags(ast);
+        List<IASMetaTag> result = new LinkedList<IASMetaTag>();
+        while (i.hasNext())
+        {
+            LinkedListTree child = i.next();
+            if (child.getType() == AS3Parser.METATAG)
+            {
+                ASTASMetaTag tag = toMetaTag(child);
+                if (tag.getName().equals(name))
+                {
+                    result.add(tag);
+                }
+            }
+        }
+        return Collections.unmodifiableList(result);
+    }
 
-	public static IASMetaTag newMetaTag(LinkedListTree ast, String name)
-	{
-		LinkedListTree tag = ASTBuilder.newMetadataTag(name);
+    public static IASMetaTag newMetaTag(LinkedListTree ast, String name)
+    {
+        LinkedListTree tag = ASTBuilder.newMetadataTag(name);
+        LinkedListTree annotations = null;
+        
+        if (isType(ast))
+        {
+            annotations = findTags(ast);
+            ASTUtils.addParenChildWithIndentation(annotations, tag);
+            return toMetaTag(tag);
+        }
 
-		if (isType(ast))
-		{
-			LinkedListTree annotations = findTags(ast);
-			ASTUtils.addParenChildWithIndentation(annotations, tag);
-			return toMetaTag(tag);
-		}
+        annotations = findTags(ast);
 
-		LinkedListToken trailingnl = TokenBuilder.newNewline();
-		tag.getStopToken().appendToken(trailingnl);
-		tag.setStopToken(trailingnl);
+        LinkedListToken trailingnl = TokenBuilder.newNewline();
+        // if there is only one child, the nl will fall after the annotations
+        // container, so the annos need it's stop token adjusted
+        LinkedListTree stop = (annotations.getChildCount() == 1) ? annotations : tag;
 
-		String indent = ASTUtils.findIndent(ast);
-		if (indent.length() > 0)
-		{
-			LinkedListToken stopToken = tag.getStopToken();
-			LinkedListToken indentTok = TokenBuilder.newWhiteSpace(indent);
-			stopToken.appendToken(indentTok);
-			tag.setStopToken(indentTok);
-		}
+        stop.getStopToken().appendToken(trailingnl);
+        stop.setStopToken(trailingnl);
 
-		LinkedListTree annotations = findTags(ast);
-		annotations.addChildWithTokens(tag);
-		return toMetaTag(tag);
-	}
+        String indent = ASTUtils.findIndent(ast);
+        if (indent.length() > 0)
+        {
+            LinkedListToken stopToken = stop.getStopToken();
+            LinkedListToken indentTok = TokenBuilder.newWhiteSpace(indent);
+            stopToken.appendToken(indentTok);
+            stop.setStopToken(indentTok);
+        }
 
-	private static ASTIterator iterTags(LinkedListTree ast)
-	{
-		return new ASTIterator(findTags(ast));
-	}
+        annotations.addChildWithTokens(tag);
+        return toMetaTag(tag);
+    }
 
-	private static LinkedListTree findTags(LinkedListTree ast)
-	{
-		return ASTUtils.findChildByType(ast, AS3Parser.ANNOTATIONS);
-	}
+    private static ASTIterator iterTags(LinkedListTree ast)
+    {
+        return new ASTIterator(findTags(ast));
+    }
 
-	private static ASTASMetaTag toMetaTag(LinkedListTree tag)
-	{
-		ASTUtils.assertAS3TokenTypeIs(AS3Parser.METATAG, tag.getType());
-		return new ASTASMetaTag(tag);
-	}
+    private static LinkedListTree findTags(LinkedListTree ast)
+    {
+        return ASTUtils.findChildByType(ast, AS3Parser.ANNOTATIONS);
+    }
 
-	private static boolean isType(LinkedListTree ast)
-	{
-		return ast.getParent().getType() == AS3Parser.PACKAGE;
-	}
+    private static ASTASMetaTag toMetaTag(LinkedListTree tag)
+    {
+        ASTUtils.assertAS3TokenTypeIs(AS3Parser.METATAG, tag.getType());
+        return new ASTASMetaTag(tag);
+    }
+
+    private static boolean isType(LinkedListTree ast)
+    {
+        return ast.getParent().getType() == AS3Parser.PACKAGE;
+    }
 
 }
