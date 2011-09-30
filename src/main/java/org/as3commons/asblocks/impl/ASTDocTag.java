@@ -43,7 +43,7 @@ public class ASTDocTag implements IDocTag
 
 	public String getName()
 	{
-		return ast.getStartToken().getText().substring(1);
+		return ast.getStartToken().getText().trim().substring(1);
 	}
 
 	public void setName(String name)

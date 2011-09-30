@@ -159,8 +159,7 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		LinkedListTree para;
 		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
 		{
-			LinkedListTree tag = para.getFirstChild();
-			if (tag.getText().equals(tagname))
+			if (nameText(para).equals(tagname))
 				return true;
 
 		}
@@ -198,8 +197,7 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		LinkedListTree para;
 		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
 		{
-			LinkedListTree tag = para.getFirstChild();
-			if (tag.getText().equals(tagname))
+			if (nameText(para).equals(tagname))
 			{
 				tags.add(new ASTDocTag(this, para));
 			}
@@ -218,8 +216,7 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 		LinkedListTree para;
 		while ((para = i.search(ASDocParser.PARA_TAG)) != null)
 		{
-			LinkedListTree tag = para.getFirstChild();
-			if (tag.getText().equals(tagname))
+			if (nameText(para).equals(tagname))
 			{
 				return new ASTDocTag(this, para);
 			}
@@ -263,5 +260,10 @@ public class ASTDocComment extends ASTScriptElement implements IDocComment
 	{
 		return "@" + name;
 	}
+	
+    private static String nameText(LinkedListTree para)
+    {
+        return para.getFirstChild().getText().trim();
+    }
 
 }

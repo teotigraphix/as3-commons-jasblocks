@@ -142,14 +142,17 @@ public class ASTASParameter extends ASTScriptElement implements IASParameter
 	}
 
 	public String toString()
-	{
-		String type = getType();
-		if (type == null)
-		{
-			return getName();
-		}
-		return getName() + ":" + type;
-	}
+    {
+        String type = getType();
+        if (type == null)
+        {
+            String name = getName();
+            if (ast.getChildCount() == 2)
+                return name + "=" + ast.getChild(1).getText();
+            return getName();
+        }
+        return getName() + ":" + type;
+    }
 
 	@Override
 	public String getDescription()
