@@ -125,21 +125,22 @@ xmlTagContent
 	;
 
 xmlTagName
-	:	xmlEmbeddedExpression
-	|	XML_NAME
+	:	//xmlEmbeddedExpression
+	//|	
+	XML_NAME
 	;
-
+/*
 xmlEmbeddedExpression
 	:	'{' expression '}' -> expression
 	;
-
+*/
 // TODO: embed the as3 parser here!
 expression
 	:
 		(
 			xmlText
-			|
-			xmlEmbeddedExpression
+			/*|
+			xmlEmbeddedExpression*/
 		)+
 	;
 
@@ -151,8 +152,8 @@ xmlText
 
 xmlAttributes
 	:	(
-			xmlEmbeddedExpression
-			|
+			//xmlEmbeddedExpression
+			//|
 			xmlAttribute
 		)+
 	;
@@ -163,13 +164,14 @@ xmlAttribute
 	;
 
 xmlAttributeValue
-	:	xmlEmbeddedExpression
-	|	XML_ATTRIBUTE_VALUE
+	:	//xmlEmbeddedExpression
+	//|	
+	XML_ATTRIBUTE_VALUE
 		;
-
+/* xmlEmbeddedExpression */
 xmlElementContent
-	:	xmlEmbeddedExpression
-	|	xmlMarkup
+	:	
+		xmlMarkup
 	|	xmlText
 	|	xmlElement
 	;
@@ -227,5 +229,5 @@ fragment UNICODE_LETTER	:	'a'..'z' | 'A'..'Z';
 fragment UNICODE_DIGIT	:	'0'..'9';
 
 XML_TEXT
-	:	(~(XML_LCHEVRON | '{'))
+	:	(~(XML_LCHEVRON /*| '{'*/))
 	;

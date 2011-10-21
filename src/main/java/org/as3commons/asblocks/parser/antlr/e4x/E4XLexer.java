@@ -1,4 +1,4 @@
-// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g 2011-07-28 18:48:41
+// $ANTLR 3.3 Nov 30, 2010 12:45:30 C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g 2011-10-21 10:37:07
 
 package org.as3commons.asblocks.parser.antlr.e4x;
 import org.as3commons.asblocks.parser.antlr.LinkedListTree;
@@ -14,8 +14,6 @@ public class E4XLexer extends Lexer {
     public static final int T__28=28;
     public static final int T__29=29;
     public static final int T__30=30;
-    public static final int T__31=31;
-    public static final int T__32=32;
     public static final int COMPILATION_UNIT=4;
     public static final int XML_ROOT_ELEMENT=5;
     public static final int XML_EMPTY_ELEMENT=6;
@@ -52,15 +50,15 @@ public class E4XLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g"; }
+    public String getGrammarFileName() { return "C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g"; }
 
     // $ANTLR start "T__28"
     public final void mT__28() throws RecognitionException {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:12:7: ( '<>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:12:9: '<>'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:12:7: ( '<>' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:12:9: '<>'
             {
             match("<>"); 
 
@@ -80,8 +78,8 @@ public class E4XLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:13:7: ( '</>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:13:9: '</>'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:13:7: ( '</>' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:13:9: '</>'
             {
             match("</>"); 
 
@@ -101,48 +99,8 @@ public class E4XLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:14:7: ( '{' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:14:9: '{'
-            {
-            match('{'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        }
-    }
-    // $ANTLR end "T__30"
-
-    // $ANTLR start "T__31"
-    public final void mT__31() throws RecognitionException {
-        try {
-            int _type = T__31;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:15:7: ( '}' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:15:9: '}'
-            {
-            match('}'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        }
-    }
-    // $ANTLR end "T__31"
-
-    // $ANTLR start "T__32"
-    public final void mT__32() throws RecognitionException {
-        try {
-            int _type = T__32;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:16:7: ( '=' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:16:9: '='
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:14:7: ( '=' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:14:9: '='
             {
             match('='); 
 
@@ -154,15 +112,15 @@ public class E4XLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "T__32"
+    // $ANTLR end "T__30"
 
     // $ANTLR start "XML_LCHEVRON"
     public final void mXML_LCHEVRON() throws RecognitionException {
         try {
             int _type = XML_LCHEVRON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:179:15: ( '<' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:179:17: '<'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:181:15: ( '<' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:181:17: '<'
             {
             match('<'); 
 
@@ -181,8 +139,8 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_RCHEVRON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:180:15: ( '>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:180:17: '>'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:182:15: ( '>' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:182:17: '>'
             {
             match('>'); 
 
@@ -201,8 +159,8 @@ public class E4XLexer extends Lexer {
         try {
             int _type = LCLOSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:182:9: ( '</' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:182:12: '</'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:184:9: ( '</' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:184:12: '</'
             {
             match("</"); 
 
@@ -222,8 +180,8 @@ public class E4XLexer extends Lexer {
         try {
             int _type = RCLOSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:183:9: ( '/>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:183:12: '/>'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:185:9: ( '/>' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:185:12: '/>'
             {
             match("/>"); 
 
@@ -243,10 +201,10 @@ public class E4XLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:188:4: ( ( ' ' | '\\t' | '\\f' )+ )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:188:6: ( ' ' | '\\t' | '\\f' )+
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:190:4: ( ( ' ' | '\\t' | '\\f' )+ )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:190:6: ( ' ' | '\\t' | '\\f' )+
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:188:6: ( ' ' | '\\t' | '\\f' )+
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:190:6: ( ' ' | '\\t' | '\\f' )+
             int cnt1=0;
             loop1:
             do {
@@ -260,7 +218,7 @@ public class E4XLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
+            	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)=='\f'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -301,10 +259,10 @@ public class E4XLexer extends Lexer {
         try {
             int _type = EOL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:197:2: ( ( '\\r' '\\n' | '\\r' | '\\n' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:197:4: ( '\\r' '\\n' | '\\r' | '\\n' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:199:2: ( ( '\\r' '\\n' | '\\r' | '\\n' ) )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:199:4: ( '\\r' '\\n' | '\\r' | '\\n' )
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:197:4: ( '\\r' '\\n' | '\\r' | '\\n' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:199:4: ( '\\r' '\\n' | '\\r' | '\\n' )
             int alt2=3;
             int LA2_0 = input.LA(1);
 
@@ -328,7 +286,7 @@ public class E4XLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:198:4: '\\r' '\\n'
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:200:4: '\\r' '\\n'
                     {
                     match('\r'); 
                     match('\n'); 
@@ -336,14 +294,14 @@ public class E4XLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:199:5: '\\r'
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:201:5: '\\r'
                     {
                     match('\r'); 
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:200:5: '\\n'
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:202:5: '\\n'
                     {
                     match('\n'); 
 
@@ -369,11 +327,11 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_NAME;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:206:2: ( XML_NAME_START ( XML_NAME_PART )* )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:206:4: XML_NAME_START ( XML_NAME_PART )*
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:208:2: ( XML_NAME_START ( XML_NAME_PART )* )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:208:4: XML_NAME_START ( XML_NAME_PART )*
             {
             mXML_NAME_START(); 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:206:19: ( XML_NAME_PART )*
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:208:19: ( XML_NAME_PART )*
             loop3:
             do {
                 int alt3=2;
@@ -386,7 +344,7 @@ public class E4XLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:206:19: XML_NAME_PART
+            	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:208:19: XML_NAME_PART
             	    {
             	    mXML_NAME_PART(); 
 
@@ -414,7 +372,7 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_ATTRIBUTE_VALUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:210:2: ( '\\'' ( options {greedy=false; } : . )* '\\'' | '\"' ( options {greedy=false; } : . )* '\"' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:212:2: ( '\\'' ( options {greedy=false; } : . )* '\\'' | '\"' ( options {greedy=false; } : . )* '\"' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -432,10 +390,10 @@ public class E4XLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:210:4: '\\'' ( options {greedy=false; } : . )* '\\''
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:212:4: '\\'' ( options {greedy=false; } : . )* '\\''
                     {
                     match('\''); 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:210:9: ( options {greedy=false; } : . )*
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:212:9: ( options {greedy=false; } : . )*
                     loop4:
                     do {
                         int alt4=2;
@@ -451,7 +409,7 @@ public class E4XLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:210:37: .
+                    	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:212:37: .
                     	    {
                     	    matchAny(); 
 
@@ -468,10 +426,10 @@ public class E4XLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:211:4: '\"' ( options {greedy=false; } : . )* '\"'
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:213:4: '\"' ( options {greedy=false; } : . )* '\"'
                     {
                     match('\"'); 
-                    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:211:8: ( options {greedy=false; } : . )*
+                    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:213:8: ( options {greedy=false; } : . )*
                     loop5:
                     do {
                         int alt5=2;
@@ -487,7 +445,7 @@ public class E4XLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:211:36: .
+                    	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:213:36: .
                     	    {
                     	    matchAny(); 
 
@@ -518,12 +476,12 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_PI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:214:10: ( '<?' ( options {greedy=false; } : . )* '?>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:214:12: '<?' ( options {greedy=false; } : . )* '?>'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:216:10: ( '<?' ( options {greedy=false; } : . )* '?>' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:216:12: '<?' ( options {greedy=false; } : . )* '?>'
             {
             match("<?"); 
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:214:17: ( options {greedy=false; } : . )*
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:216:17: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -548,7 +506,7 @@ public class E4XLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:214:45: .
+            	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:216:45: .
             	    {
             	    matchAny(); 
 
@@ -578,12 +536,12 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:217:14: ( '<!--' ( options {greedy=false; } : . )* '-->' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:217:16: '<!--' ( options {greedy=false; } : . )* '-->'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:219:14: ( '<!--' ( options {greedy=false; } : . )* '-->' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:219:16: '<!--' ( options {greedy=false; } : . )* '-->'
             {
             match("<!--"); 
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:217:23: ( options {greedy=false; } : . )*
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:219:23: ( options {greedy=false; } : . )*
             loop8:
             do {
                 int alt8=2;
@@ -617,7 +575,7 @@ public class E4XLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:217:51: .
+            	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:219:51: .
             	    {
             	    matchAny(); 
 
@@ -648,12 +606,12 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_CDATA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:220:12: ( '<![CDATA[' ( options {greedy=false; } : . )* ']]>' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:220:14: '<![CDATA[' ( options {greedy=false; } : . )* ']]>'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:222:12: ( '<![CDATA[' ( options {greedy=false; } : . )* ']]>' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:222:14: '<![CDATA[' ( options {greedy=false; } : . )* ']]>'
             {
             match("<![CDATA["); 
 
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:220:26: ( options {greedy=false; } : . )*
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:222:26: ( options {greedy=false; } : . )*
             loop9:
             do {
                 int alt9=2;
@@ -687,7 +645,7 @@ public class E4XLexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:220:54: .
+            	    // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:222:54: .
             	    {
             	    matchAny(); 
 
@@ -715,8 +673,8 @@ public class E4XLexer extends Lexer {
     // $ANTLR start "XML_NAME_START"
     public final void mXML_NAME_START() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:222:25: ( UNICODE_LETTER | '_' | ':' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:224:25: ( UNICODE_LETTER | '_' | ':' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
             {
             if ( input.LA(1)==':'||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -739,8 +697,8 @@ public class E4XLexer extends Lexer {
     // $ANTLR start "XML_NAME_PART"
     public final void mXML_NAME_PART() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:223:24: ( UNICODE_LETTER | UNICODE_DIGIT | '.' | '-' | '_' | ':' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:225:24: ( UNICODE_LETTER | UNICODE_DIGIT | '.' | '-' | '_' | ':' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
             {
             if ( (input.LA(1)>='-' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<=':')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -763,8 +721,8 @@ public class E4XLexer extends Lexer {
     // $ANTLR start "UNICODE_LETTER"
     public final void mUNICODE_LETTER() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:226:25: ( 'a' .. 'z' | 'A' .. 'Z' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:228:25: ( 'a' .. 'z' | 'A' .. 'Z' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -787,8 +745,8 @@ public class E4XLexer extends Lexer {
     // $ANTLR start "UNICODE_DIGIT"
     public final void mUNICODE_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:227:24: ( '0' .. '9' )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:227:26: '0' .. '9'
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:229:24: ( '0' .. '9' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:229:26: '0' .. '9'
             {
             matchRange('0','9'); 
 
@@ -805,13 +763,13 @@ public class E4XLexer extends Lexer {
         try {
             int _type = XML_TEXT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:230:2: ( (~ ( XML_LCHEVRON | '{' ) ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:230:4: (~ ( XML_LCHEVRON | '{' ) )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:232:2: ( (~ ( XML_LCHEVRON ) ) )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:232:4: (~ ( XML_LCHEVRON ) )
             {
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:230:4: (~ ( XML_LCHEVRON | '{' ) )
-            // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:230:5: ~ ( XML_LCHEVRON | '{' )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:232:4: (~ ( XML_LCHEVRON ) )
+            // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:232:5: ~ ( XML_LCHEVRON )
             {
-            if ( (input.LA(1)>='\u0000' && input.LA(1)<=';')||(input.LA(1)>='=' && input.LA(1)<='z')||(input.LA(1)>='|' && input.LA(1)<='\uFFFF') ) {
+            if ( (input.LA(1)>='\u0000' && input.LA(1)<=';')||(input.LA(1)>='=' && input.LA(1)<='\uFFFF') ) {
                 input.consume();
 
             }
@@ -835,124 +793,110 @@ public class E4XLexer extends Lexer {
     // $ANTLR end "XML_TEXT"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:8: ( T__28 | T__29 | T__30 | T__31 | T__32 | XML_LCHEVRON | XML_RCHEVRON | LCLOSE | RCLOSE | WS | EOL | XML_NAME | XML_ATTRIBUTE_VALUE | XML_PI | XML_COMMENT | XML_CDATA | XML_TEXT )
-        int alt10=17;
+        // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:8: ( T__28 | T__29 | T__30 | XML_LCHEVRON | XML_RCHEVRON | LCLOSE | RCLOSE | WS | EOL | XML_NAME | XML_ATTRIBUTE_VALUE | XML_PI | XML_COMMENT | XML_CDATA | XML_TEXT )
+        int alt10=15;
         alt10 = dfa10.predict(input);
         switch (alt10) {
             case 1 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:10: T__28
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:10: T__28
                 {
                 mT__28(); 
 
                 }
                 break;
             case 2 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:16: T__29
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:16: T__29
                 {
                 mT__29(); 
 
                 }
                 break;
             case 3 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:22: T__30
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:22: T__30
                 {
                 mT__30(); 
 
                 }
                 break;
             case 4 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:28: T__31
-                {
-                mT__31(); 
-
-                }
-                break;
-            case 5 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:34: T__32
-                {
-                mT__32(); 
-
-                }
-                break;
-            case 6 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:40: XML_LCHEVRON
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:28: XML_LCHEVRON
                 {
                 mXML_LCHEVRON(); 
 
                 }
                 break;
-            case 7 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:53: XML_RCHEVRON
+            case 5 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:41: XML_RCHEVRON
                 {
                 mXML_RCHEVRON(); 
 
                 }
                 break;
-            case 8 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:66: LCLOSE
+            case 6 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:54: LCLOSE
                 {
                 mLCLOSE(); 
 
                 }
                 break;
-            case 9 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:73: RCLOSE
+            case 7 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:61: RCLOSE
                 {
                 mRCLOSE(); 
 
                 }
                 break;
-            case 10 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:80: WS
+            case 8 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:68: WS
                 {
                 mWS(); 
 
                 }
                 break;
-            case 11 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:83: EOL
+            case 9 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:71: EOL
                 {
                 mEOL(); 
 
                 }
                 break;
-            case 12 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:87: XML_NAME
+            case 10 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:75: XML_NAME
                 {
                 mXML_NAME(); 
 
                 }
                 break;
-            case 13 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:96: XML_ATTRIBUTE_VALUE
+            case 11 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:84: XML_ATTRIBUTE_VALUE
                 {
                 mXML_ATTRIBUTE_VALUE(); 
 
                 }
                 break;
-            case 14 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:116: XML_PI
+            case 12 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:104: XML_PI
                 {
                 mXML_PI(); 
 
                 }
                 break;
-            case 15 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:123: XML_COMMENT
+            case 13 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:111: XML_COMMENT
                 {
                 mXML_COMMENT(); 
 
                 }
                 break;
-            case 16 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:135: XML_CDATA
+            case 14 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:123: XML_CDATA
                 {
                 mXML_CDATA(); 
 
                 }
                 break;
-            case 17 :
-                // C:\\Users\\Teoti\\Documents\\Flash\\OpenSource\\jas-blocks\\jasblocks-antlr\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:145: XML_TEXT
+            case 15 :
+                // C:\\projects\\jasblocks\\as3-commons-jasblocks\\src\\main\\java\\org\\as3commons\\asblocks\\parser\\antlr\\e4x\\E4X.g:1:133: XML_TEXT
                 {
                 mXML_TEXT(); 
 
@@ -966,43 +910,40 @@ public class E4XLexer extends Lexer {
 
     protected DFA10 dfa10 = new DFA10(this);
     static final String DFA10_eotS =
-        "\1\uffff\1\22\4\uffff\1\15\4\uffff\2\15\2\uffff\1\34\17\uffff";
+        "\1\uffff\1\20\2\uffff\1\13\4\uffff\2\13\2\uffff\1\31\16\uffff";
     static final String DFA10_eofS =
-        "\37\uffff";
+        "\34\uffff";
     static final String DFA10_minS =
-        "\1\0\1\41\4\uffff\1\76\4\uffff\2\0\2\uffff\1\76\1\uffff\1\55\15"+
+        "\1\0\1\41\2\uffff\1\76\4\uffff\2\0\2\uffff\1\76\1\uffff\1\55\14"+
         "\uffff";
     static final String DFA10_maxS =
-        "\1\uffff\1\77\4\uffff\1\76\4\uffff\2\uffff\2\uffff\1\76\1\uffff"+
-        "\1\133\15\uffff";
+        "\1\uffff\1\77\2\uffff\1\76\4\uffff\2\uffff\2\uffff\1\76\1\uffff"+
+        "\1\133\14\uffff";
     static final String DFA10_acceptS =
-        "\2\uffff\1\3\1\4\1\5\1\7\1\uffff\1\12\2\13\1\14\2\uffff\1\21\1"+
-        "\1\1\uffff\1\16\1\uffff\1\6\1\4\1\5\1\7\1\11\1\12\1\13\1\14\1\15"+
-        "\1\2\1\10\1\17\1\20";
+        "\2\uffff\1\3\1\5\1\uffff\1\10\2\11\1\12\2\uffff\1\17\1\1\1\uffff"+
+        "\1\14\1\uffff\1\4\1\3\1\5\1\7\1\10\1\11\1\12\1\13\1\2\1\6\1\15\1"+
+        "\16";
     static final String DFA10_specialS =
-        "\1\2\12\uffff\1\1\1\0\22\uffff}>";
+        "\1\1\10\uffff\1\0\1\2\21\uffff}>";
     static final String[] DFA10_transitionS = {
-            "\11\15\1\7\1\11\1\15\1\7\1\10\22\15\1\7\1\15\1\14\4\15\1\13"+
-            "\7\15\1\6\12\15\1\12\1\15\1\1\1\4\1\5\2\15\32\12\4\15\1\12\1"+
-            "\15\32\12\1\2\1\15\1\3\uff82\15",
-            "\1\21\15\uffff\1\17\16\uffff\1\16\1\20",
+            "\11\13\1\5\1\7\1\13\1\5\1\6\22\13\1\5\1\13\1\12\4\13\1\11\7"+
+            "\13\1\4\12\13\1\10\1\13\1\1\1\2\1\3\2\13\32\10\4\13\1\10\1\13"+
+            "\32\10\uff85\13",
+            "\1\17\15\uffff\1\15\16\uffff\1\14\1\16",
+            "",
+            "",
+            "\1\23",
             "",
             "",
             "",
             "",
-            "\1\26",
+            "\0\27",
+            "\0\27",
             "",
             "",
+            "\1\30",
             "",
-            "",
-            "\0\32",
-            "\0\32",
-            "",
-            "",
-            "\1\33",
-            "",
-            "\1\35\55\uffff\1\36",
-            "",
+            "\1\32\55\uffff\1\33",
             "",
             "",
             "",
@@ -1047,61 +988,57 @@ public class E4XLexer extends Lexer {
             this.transition = DFA10_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__28 | T__29 | T__30 | T__31 | T__32 | XML_LCHEVRON | XML_RCHEVRON | LCLOSE | RCLOSE | WS | EOL | XML_NAME | XML_ATTRIBUTE_VALUE | XML_PI | XML_COMMENT | XML_CDATA | XML_TEXT );";
+            return "1:1: Tokens : ( T__28 | T__29 | T__30 | XML_LCHEVRON | XML_RCHEVRON | LCLOSE | RCLOSE | WS | EOL | XML_NAME | XML_ATTRIBUTE_VALUE | XML_PI | XML_COMMENT | XML_CDATA | XML_TEXT );";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             IntStream input = _input;
         	int _s = s;
             switch ( s ) {
                     case 0 : 
-                        int LA10_12 = input.LA(1);
+                        int LA10_9 = input.LA(1);
 
                         s = -1;
-                        if ( ((LA10_12>='\u0000' && LA10_12<='\uFFFF')) ) {s = 26;}
+                        if ( ((LA10_9>='\u0000' && LA10_9<='\uFFFF')) ) {s = 23;}
 
-                        else s = 13;
+                        else s = 11;
 
                         if ( s>=0 ) return s;
                         break;
                     case 1 : 
-                        int LA10_11 = input.LA(1);
-
-                        s = -1;
-                        if ( ((LA10_11>='\u0000' && LA10_11<='\uFFFF')) ) {s = 26;}
-
-                        else s = 13;
-
-                        if ( s>=0 ) return s;
-                        break;
-                    case 2 : 
                         int LA10_0 = input.LA(1);
 
                         s = -1;
                         if ( (LA10_0=='<') ) {s = 1;}
 
-                        else if ( (LA10_0=='{') ) {s = 2;}
+                        else if ( (LA10_0=='=') ) {s = 2;}
 
-                        else if ( (LA10_0=='}') ) {s = 3;}
+                        else if ( (LA10_0=='>') ) {s = 3;}
 
-                        else if ( (LA10_0=='=') ) {s = 4;}
+                        else if ( (LA10_0=='/') ) {s = 4;}
 
-                        else if ( (LA10_0=='>') ) {s = 5;}
+                        else if ( (LA10_0=='\t'||LA10_0=='\f'||LA10_0==' ') ) {s = 5;}
 
-                        else if ( (LA10_0=='/') ) {s = 6;}
+                        else if ( (LA10_0=='\r') ) {s = 6;}
 
-                        else if ( (LA10_0=='\t'||LA10_0=='\f'||LA10_0==' ') ) {s = 7;}
+                        else if ( (LA10_0=='\n') ) {s = 7;}
 
-                        else if ( (LA10_0=='\r') ) {s = 8;}
+                        else if ( (LA10_0==':'||(LA10_0>='A' && LA10_0<='Z')||LA10_0=='_'||(LA10_0>='a' && LA10_0<='z')) ) {s = 8;}
 
-                        else if ( (LA10_0=='\n') ) {s = 9;}
+                        else if ( (LA10_0=='\'') ) {s = 9;}
 
-                        else if ( (LA10_0==':'||(LA10_0>='A' && LA10_0<='Z')||LA10_0=='_'||(LA10_0>='a' && LA10_0<='z')) ) {s = 10;}
+                        else if ( (LA10_0=='\"') ) {s = 10;}
 
-                        else if ( (LA10_0=='\'') ) {s = 11;}
+                        else if ( ((LA10_0>='\u0000' && LA10_0<='\b')||LA10_0=='\u000B'||(LA10_0>='\u000E' && LA10_0<='\u001F')||LA10_0=='!'||(LA10_0>='#' && LA10_0<='&')||(LA10_0>='(' && LA10_0<='.')||(LA10_0>='0' && LA10_0<='9')||LA10_0==';'||(LA10_0>='?' && LA10_0<='@')||(LA10_0>='[' && LA10_0<='^')||LA10_0=='`'||(LA10_0>='{' && LA10_0<='\uFFFF')) ) {s = 11;}
 
-                        else if ( (LA10_0=='\"') ) {s = 12;}
+                        if ( s>=0 ) return s;
+                        break;
+                    case 2 : 
+                        int LA10_10 = input.LA(1);
 
-                        else if ( ((LA10_0>='\u0000' && LA10_0<='\b')||LA10_0=='\u000B'||(LA10_0>='\u000E' && LA10_0<='\u001F')||LA10_0=='!'||(LA10_0>='#' && LA10_0<='&')||(LA10_0>='(' && LA10_0<='.')||(LA10_0>='0' && LA10_0<='9')||LA10_0==';'||(LA10_0>='?' && LA10_0<='@')||(LA10_0>='[' && LA10_0<='^')||LA10_0=='`'||LA10_0=='|'||(LA10_0>='~' && LA10_0<='\uFFFF')) ) {s = 13;}
+                        s = -1;
+                        if ( ((LA10_10>='\u0000' && LA10_10<='\uFFFF')) ) {s = 23;}
+
+                        else s = 11;
 
                         if ( s>=0 ) return s;
                         break;
